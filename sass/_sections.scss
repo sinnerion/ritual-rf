@@ -38,3 +38,37 @@
     }
   }
 }
+.memo {
+  margin-bottom: 45px;
+  table tbody tr td {
+    border: none;
+    padding: 0;
+  }
+  &-title {
+    margin: 0 0 20px;
+    text-align: center;
+    font-size: 24px;
+  }
+  &-item {
+    font-size: 0;
+    margin-bottom: 10px;
+    min-height: 100px;
+    &_wrapper {
+      padding: 10px 15px;
+      border: 1px solid $border;
+    }
+    &_number {
+      float: left;
+      margin-right: 10px;
+      line-height: 70px;
+      padding: 0 40px;
+      background: $red;
+      color: $accent-txt;
+      font-size: 32px;
+      border-radius: 3px;
+    }
+    &_description {
+      font-size: 18px;
+    }
+  }
+}
