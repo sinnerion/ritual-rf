@@ -1,40 +1,41 @@
 /* line 3, ../sass/_header.scss */
 header {
   position: fixed;
-  z-index: 100;
+  z-index: 9999;
   width: 100%;
+  top: 0;
   background: #fff;
   border-bottom: 1px solid #dedede;
 }
-/* line 9, ../sass/_header.scss */
+/* line 13, ../sass/_header.scss */
 header .header-top {
   background: #293684;
   margin-bottom: 24px;
 }
-/* line 13, ../sass/_header.scss */
+/* line 17, ../sass/_header.scss */
 header .main-nav.navbar-default {
   font-size: 0;
   background: transparent;
   border: none;
   margin: 0;
 }
-/* line 18, ../sass/_header.scss */
+/* line 22, ../sass/_header.scss */
 header .main-nav.navbar-default ul {
   display: table;
   margin: 0 auto;
   float: none;
 }
-/* line 23, ../sass/_header.scss */
+/* line 27, ../sass/_header.scss */
 header .main-nav.navbar-default li {
   display: inline-block;
   margin-right: 45px;
   float: none;
 }
-/* line 27, ../sass/_header.scss */
+/* line 31, ../sass/_header.scss */
 header .main-nav.navbar-default li:last-child {
   margin: 0;
 }
-/* line 31, ../sass/_header.scss */
+/* line 35, ../sass/_header.scss */
 header .main-nav.navbar-default a {
   padding: 0;
   font-weight: bold;
@@ -44,51 +45,69 @@ header .main-nav.navbar-default a {
   font-size: 14px;
   text-decoration: none;
 }
-/* line 39, ../sass/_header.scss */
+/* line 43, ../sass/_header.scss */
 header .main-nav.navbar-default a:hover {
   color: #b50000;
 }
-/* line 44, ../sass/_header.scss */
+/* line 48, ../sass/_header.scss */
 header .header-contact {
   padding-bottom: 20px;
   background: #fff;
 }
-/* line 47, ../sass/_header.scss */
+/* line 51, ../sass/_header.scss */
 header .header-contact .funner-serv {
   text-align: center;
 }
-/* line 49, ../sass/_header.scss */
+/* line 53, ../sass/_header.scss */
 header .header-contact .funner-serv a {
   text-decoration: none;
   font-size: 22px;
   color: #293684;
   font-weight: bold;
 }
-/* line 55, ../sass/_header.scss */
+/* line 59, ../sass/_header.scss */
 header .header-contact .funner-serv_description {
   color: #b50000;
 }
-/* line 59, ../sass/_header.scss */
+/* line 63, ../sass/_header.scss */
 header .header-contact .header-call {
   text-align: right;
 }
-/* line 61, ../sass/_header.scss */
+/* line 65, ../sass/_header.scss */
 header .header-contact .header-call_title {
   color: #b50000;
   font-size: 18px;
 }
-/* line 65, ../sass/_header.scss */
+/* line 69, ../sass/_header.scss */
 header .header-contact .header-call a {
   font-size: 160%;
   color: #000;
 }
 
-/* line 3, ../sass/_sections.scss */
+/* line 4, ../sass/_sections.scss */
+section .container h2 {
+  text-align: center;
+  font-size: 40px;
+  margin: 0 0 20px;
+  color: #293684;
+}
+/* line 10, ../sass/_sections.scss */
+section .container table tbody tr td {
+  padding: 0;
+  border: none;
+}
+/* line 14, ../sass/_sections.scss */
+section .container .heading-img {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* line 20, ../sass/_sections.scss */
 .help-call {
   padding-top: 180px;
   margin-bottom: 30px;
 }
-/* line 6, ../sass/_sections.scss */
+/* line 23, ../sass/_sections.scss */
 .help-call a {
   display: block;
   text-decoration: none;
@@ -100,65 +119,61 @@ header .header-contact .header-call a {
   font-size: 25px;
   text-align: center;
 }
-/* line 16, ../sass/_sections.scss */
+/* line 33, ../sass/_sections.scss */
 .help-call a span {
   font-weight: 700;
 }
-/* line 19, ../sass/_sections.scss */
+/* line 36, ../sass/_sections.scss */
 .help-call a:hover {
   text-decoration: none;
 }
 
-/* line 24, ../sass/_sections.scss */
+/* line 41, ../sass/_sections.scss */
 .main-banner {
   margin-bottom: 30px;
 }
-/* line 26, ../sass/_sections.scss */
+/* line 43, ../sass/_sections.scss */
 .main-banner_link {
   margin-bottom: 30px;
   display: block;
 }
-/* line 29, ../sass/_sections.scss */
+/* line 46, ../sass/_sections.scss */
 .main-banner_link img {
   width: 100%;
 }
-/* line 33, ../sass/_sections.scss */
+/* line 50, ../sass/_sections.scss */
 .main-banner .partners ul {
   display: table;
   margin: 0 auto;
 }
-/* line 36, ../sass/_sections.scss */
+/* line 53, ../sass/_sections.scss */
 .main-banner .partners ul li {
   display: table-cell;
 }
 
-/* line 41, ../sass/_sections.scss */
+/* line 58, ../sass/_sections.scss */
 .memo {
   margin-bottom: 45px;
 }
-/* line 43, ../sass/_sections.scss */
-.memo table tbody tr td {
-  border: none;
-  padding: 0;
-}
-/* line 47, ../sass/_sections.scss */
+/* line 60, ../sass/_sections.scss */
 .memo-title {
   margin: 0 0 20px;
   text-align: center;
   font-size: 24px;
 }
-/* line 52, ../sass/_sections.scss */
+/* line 65, ../sass/_sections.scss */
 .memo-item {
   font-size: 0;
   margin-bottom: 10px;
   min-height: 100px;
 }
-/* line 56, ../sass/_sections.scss */
+/* line 69, ../sass/_sections.scss */
 .memo-item_wrapper {
   padding: 10px 15px;
   border: 1px solid #dedede;
+  height: 100%;
 }
-/* line 60, ../sass/_sections.scss */
+/* line 74, ../sass/_sections.scss */
 .memo-item_number {
   float: left;
   margin-right: 10px;
@@ -167,11 +182,54 @@ header .header-contact .header-call a {
   background: #b50000;
   color: #fff;
   font-size: 32px;
-  border-radius: 3px;
+  border-radius: 5px;
 }
-/* line 70, ../sass/_sections.scss */
+/* line 84, ../sass/_sections.scss */
 .memo-item_description {
   font-size: 18px;
+}
+/* line 88, ../sass/_sections.scss */
+.memo-attention {
+  box-shadow: 0px 3px 4px #b0b0b0;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #dedede;
+  border-radius: 4px;
+}
+/* line 94, ../sass/_sections.scss */
+.memo-attention_title {
+  font-size: 24px;
+  color: #b50000;
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+/* line 100, ../sass/_sections.scss */
+.memo-attention_description {
+  margin: 0;
+  font-size: 18px;
+}
+
+/* line 106, ../sass/_sections.scss */
+.special-serv {
+  margin-bottom: 40px;
+}
+/* line 108, ../sass/_sections.scss */
+.special-serv_item {
+  padding: 0 10px 0 0;
+  margin-bottom: 30px;
+}
+/* line 112, ../sass/_sections.scss */
+.special-serv .item-title {
+  font-size: 22px;
+  margin-bottom: 20px;
+  color: #b50000;
+  font-weight: bold;
+}
+/* line 118, ../sass/_sections.scss */
+.special-serv .item-description {
+  font-size: 18px;
+  margin: 0;
+  padding: 0 20% 0 0;
 }
 
 /* Smartphones (portrait and landscape) ----------- */

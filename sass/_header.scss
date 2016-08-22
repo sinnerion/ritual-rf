@@ -2,10 +2,14 @@
 
 header {
   position: fixed;
-  z-index: 100;
+  z-index: 9999;
   width: 100%;
+  top: 0;
   background: #fff;
   border-bottom: 1px solid $border;
+//  &.header-fixed {
+//    position: fixed;
+//  }
   .header-top {
     background: $blue;
     margin-bottom: 24px;

@@ -1,5 +1,22 @@
 @import "variables";
 
+section .container {
+  h2 {
+    text-align: center;
+    font-size: 40px;
+    margin: 0 0 20px;
+    color: $blue;
+  }
+  table tbody tr td {
+    padding: 0;
+    border: none;
+  }
+  .heading-img {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+}
+
 .help-call {
   padding-top: 180px;
   margin-bottom: 30px;
@@ -40,10 +57,6 @@
 }
 .memo {
   margin-bottom: 45px;
-  table tbody tr td {
-    border: none;
-    padding: 0;
-  }
   &-title {
     margin: 0 0 20px;
     text-align: center;
@@ -56,6 +69,7 @@
     &_wrapper {
       padding: 10px 15px;
       border: 1px solid $border;
+      height: 100%;
     }
     &_number {
       float: left;
@@ -65,10 +79,48 @@
       background: $red;
       color: $accent-txt;
       font-size: 32px;
-      border-radius: 3px;
+      border-radius: 5px;
     }
     &_description {
       font-size: 18px;
     }
   }
+  &-attention {
+    box-shadow: 0px 3px 4px #b0b0b0;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid $border;
+    border-radius: 4px;
+    &_title {
+      font-size: 24px;
+      color: $red;
+      margin-bottom: 25px;
+      font-weight: bold;
+    }
+    &_description {
+      margin: 0;
+      font-size: 18px;
+    }
+  }
+}
+.special-serv {
+  margin-bottom: 40px;
+  &_item {
+    padding: 0 10px 0 0;
+    margin-bottom: 30px;
+  }
+  .item-title {
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: $red;
+    font-weight: bold;
+  }
+  .item-description {
+    font-size: 18px;
+    margin: 0;
+    padding: 0 20% 0 0;
+  }
+}
+.funner-cost {
+
 }
