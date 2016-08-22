@@ -1,5 +1,6 @@
 /* line 3, ../sass/_header.scss */
 header {
+  display: none;
   position: fixed;
   z-index: 9999;
   width: 100%;
@@ -7,35 +8,35 @@ header {
   background: #fff;
   border-bottom: 1px solid #dedede;
 }
-/* line 13, ../sass/_header.scss */
+/* line 14, ../sass/_header.scss */
 header .header-top {
   background: #293684;
   margin-bottom: 24px;
 }
-/* line 17, ../sass/_header.scss */
+/* line 18, ../sass/_header.scss */
 header .main-nav.navbar-default {
   font-size: 0;
   background: transparent;
   border: none;
   margin: 0;
 }
-/* line 22, ../sass/_header.scss */
+/* line 23, ../sass/_header.scss */
 header .main-nav.navbar-default ul {
   display: table;
   margin: 0 auto;
   float: none;
 }
-/* line 27, ../sass/_header.scss */
+/* line 28, ../sass/_header.scss */
 header .main-nav.navbar-default li {
   display: inline-block;
   margin-right: 45px;
   float: none;
 }
-/* line 31, ../sass/_header.scss */
+/* line 32, ../sass/_header.scss */
 header .main-nav.navbar-default li:last-child {
   margin: 0;
 }
-/* line 35, ../sass/_header.scss */
+/* line 36, ../sass/_header.scss */
 header .main-nav.navbar-default a {
   padding: 0;
   font-weight: bold;
@@ -45,40 +46,40 @@ header .main-nav.navbar-default a {
   font-size: 14px;
   text-decoration: none;
 }
-/* line 43, ../sass/_header.scss */
+/* line 44, ../sass/_header.scss */
 header .main-nav.navbar-default a:hover {
   color: #b50000;
 }
-/* line 48, ../sass/_header.scss */
+/* line 49, ../sass/_header.scss */
 header .header-contact {
   padding-bottom: 20px;
   background: #fff;
 }
-/* line 51, ../sass/_header.scss */
+/* line 52, ../sass/_header.scss */
 header .header-contact .funner-serv {
   text-align: center;
 }
-/* line 53, ../sass/_header.scss */
+/* line 54, ../sass/_header.scss */
 header .header-contact .funner-serv a {
   text-decoration: none;
   font-size: 22px;
   color: #293684;
   font-weight: bold;
 }
-/* line 59, ../sass/_header.scss */
+/* line 60, ../sass/_header.scss */
 header .header-contact .funner-serv_description {
   color: #b50000;
 }
-/* line 63, ../sass/_header.scss */
+/* line 64, ../sass/_header.scss */
 header .header-contact .header-call {
   text-align: right;
 }
-/* line 65, ../sass/_header.scss */
+/* line 66, ../sass/_header.scss */
 header .header-contact .header-call_title {
   color: #b50000;
   font-size: 18px;
 }
-/* line 69, ../sass/_header.scss */
+/* line 70, ../sass/_header.scss */
 header .header-contact .header-call a {
   font-size: 160%;
   color: #000;
@@ -92,22 +93,34 @@ section .container h2 {
   color: #293684;
 }
 /* line 10, ../sass/_sections.scss */
+section .container .bold-heading {
+  font-weight: bold;
+  font-size: 38px;
+}
+/* line 14, ../sass/_sections.scss */
 section .container table tbody tr td {
   padding: 0;
   border: none;
 }
-/* line 14, ../sass/_sections.scss */
+/* line 18, ../sass/_sections.scss */
+section .container .sub-heading {
+  text-align: center;
+  color: #b50000;
+  font-size: 28px;
+  margin: 0 0 25px;
+}
+/* line 24, ../sass/_sections.scss */
 section .container .heading-img {
   text-align: center;
   margin-bottom: 10px;
 }
 
-/* line 20, ../sass/_sections.scss */
+/* line 30, ../sass/_sections.scss */
 .help-call {
   padding-top: 180px;
   margin-bottom: 30px;
 }
-/* line 23, ../sass/_sections.scss */
+/* line 33, ../sass/_sections.scss */
 .help-call a {
   display: block;
   text-decoration: none;
@@ -119,61 +132,61 @@ section .container .heading-img {
   font-size: 25px;
   text-align: center;
 }
-/* line 33, ../sass/_sections.scss */
+/* line 43, ../sass/_sections.scss */
 .help-call a span {
   font-weight: 700;
 }
-/* line 36, ../sass/_sections.scss */
+/* line 46, ../sass/_sections.scss */
 .help-call a:hover {
   text-decoration: none;
 }
 
-/* line 41, ../sass/_sections.scss */
+/* line 51, ../sass/_sections.scss */
 .main-banner {
   margin-bottom: 30px;
 }
-/* line 43, ../sass/_sections.scss */
+/* line 53, ../sass/_sections.scss */
 .main-banner_link {
   margin-bottom: 30px;
   display: block;
 }
-/* line 46, ../sass/_sections.scss */
+/* line 56, ../sass/_sections.scss */
 .main-banner_link img {
   width: 100%;
 }
-/* line 50, ../sass/_sections.scss */
+/* line 60, ../sass/_sections.scss */
 .main-banner .partners ul {
   display: table;
   margin: 0 auto;
 }
-/* line 53, ../sass/_sections.scss */
+/* line 63, ../sass/_sections.scss */
 .main-banner .partners ul li {
   display: table-cell;
 }
 
-/* line 58, ../sass/_sections.scss */
+/* line 68, ../sass/_sections.scss */
 .memo {
   margin-bottom: 45px;
 }
-/* line 60, ../sass/_sections.scss */
+/* line 70, ../sass/_sections.scss */
 .memo-title {
   margin: 0 0 20px;
   text-align: center;
   font-size: 24px;
 }
-/* line 65, ../sass/_sections.scss */
+/* line 75, ../sass/_sections.scss */
 .memo-item {
   font-size: 0;
   margin-bottom: 10px;
   min-height: 100px;
 }
-/* line 69, ../sass/_sections.scss */
+/* line 79, ../sass/_sections.scss */
 .memo-item_wrapper {
   padding: 10px 15px;
   border: 1px solid #dedede;
   height: 100%;
 }
-/* line 74, ../sass/_sections.scss */
+/* line 84, ../sass/_sections.scss */
 .memo-item_number {
   float: left;
   margin-right: 10px;
@@ -184,11 +197,15 @@ section .container .heading-img {
   font-size: 32px;
   border-radius: 5px;
 }
-/* line 84, ../sass/_sections.scss */
+/* line 94, ../sass/_sections.scss */
 .memo-item_description {
   font-size: 18px;
 }
-/* line 88, ../sass/_sections.scss */
+/* line 96, ../sass/_sections.scss */
+.memo-item_description a {
+  color: inherit;
+}
+/* line 101, ../sass/_sections.scss */
 .memo-attention {
   box-shadow: 0px 3px 4px #b0b0b0;
   text-align: center;
@@ -196,40 +213,98 @@ section .container .heading-img {
   border: 1px solid #dedede;
   border-radius: 4px;
 }
-/* line 94, ../sass/_sections.scss */
+/* line 107, ../sass/_sections.scss */
 .memo-attention_title {
   font-size: 24px;
   color: #b50000;
   margin-bottom: 25px;
   font-weight: bold;
 }
-/* line 100, ../sass/_sections.scss */
+/* line 113, ../sass/_sections.scss */
 .memo-attention_description {
   margin: 0;
   font-size: 18px;
 }
 
-/* line 106, ../sass/_sections.scss */
+/* line 119, ../sass/_sections.scss */
 .special-serv {
   margin-bottom: 40px;
 }
-/* line 108, ../sass/_sections.scss */
+/* line 121, ../sass/_sections.scss */
 .special-serv_item {
   padding: 0 10px 0 0;
   margin-bottom: 30px;
 }
-/* line 112, ../sass/_sections.scss */
+/* line 125, ../sass/_sections.scss */
 .special-serv .item-title {
   font-size: 22px;
   margin-bottom: 20px;
   color: #b50000;
   font-weight: bold;
 }
-/* line 118, ../sass/_sections.scss */
+/* line 131, ../sass/_sections.scss */
 .special-serv .item-description {
   font-size: 18px;
   margin: 0;
   padding: 0 20% 0 0;
+}
+
+/* line 138, ../sass/_sections.scss */
+.funner-cost_item {
+  text-align: center;
+}
+/* line 140, ../sass/_sections.scss */
+.funner-cost_item li {
+  width: 83.6%;
+  margin: 0 auto;
+  padding: 10px 5px;
+  border-top: 1px solid #dedede;
+  border-bottom: 1px solid #dedede;
+}
+/* line 146, ../sass/_sections.scss */
+.funner-cost_item li span {
+  color: #b50000;
+  font-weight: bold;
+}
+/* line 150, ../sass/_sections.scss */
+.funner-cost_item li:first-child {
+  border-top: none;
+}
+/* line 153, ../sass/_sections.scss */
+.funner-cost_item li:last-child {
+  border-bottom: none;
+}
+/* line 157, ../sass/_sections.scss */
+.funner-cost_item .item-wrapper {
+  border: 2px solid #293684;
+  height: 100%;
+}
+/* line 161, ../sass/_sections.scss */
+.funner-cost_item .item-heading {
+  font-weight: bold;
+  color: #fff;
+  background: #293684;
+  border: 5px solid #124557;
+  padding: 30px 20px;
+  margin-bottom: 10px;
+}
+/* line 168, ../sass/_sections.scss */
+.funner-cost_item .item-heading_title {
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+/* line 173, ../sass/_sections.scss */
+.funner-cost_item .item-heading_service:not(:last-child) {
+  margin-bottom: 40px;
+}
+/* line 177, ../sass/_sections.scss */
+.funner-cost_item .item-heading_single-cost {
+  font-size: 40px;
+}
+/* line 180, ../sass/_sections.scss */
+.funner-cost_item .item-heading span {
+  font-weight: normal;
+  font-size: 14px;
 }
 
 /* Smartphones (portrait and landscape) ----------- */
@@ -258,6 +333,13 @@ section .container .heading-img {
 }
 @media only screen and (max-width: 992px) {
   /* line 45, ../sass/_media.scss */
+  header .main-nav.navbar-default li {
+    width: 100%;
+    display: block;
+    margin-right: 0;
+  }
+
+  /* line 50, ../sass/_media.scss */
   .header-contact .header-contact_link {
     text-align: center !important;
     margin-bottom: 30px;

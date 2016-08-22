@@ -7,9 +7,19 @@ section .container {
     margin: 0 0 20px;
     color: $blue;
   }
+  .bold-heading {
+    font-weight: bold;
+    font-size: 38px;
+  }
   table tbody tr td {
     padding: 0;
     border: none;
+  }
+  .sub-heading {
+    text-align: center;
+    color: $red;
+    font-size: 28px;
+    margin: 0 0 25px;
   }
   .heading-img {
     text-align: center;
@@ -83,6 +93,9 @@ section .container {
     }
     &_description {
       font-size: 18px;
+      a {
+        color: inherit;
+      }
     }
   }
   &-attention {
@@ -122,5 +135,52 @@ section .container {
   }
 }
 .funner-cost {
-
+  &_item {
+    text-align: center;
+    li {
+      width: 83.6%;
+      margin: 0 auto;
+      padding: 10px 5px;
+      border-top: 1px solid $border;
+      border-bottom: 1px solid $border;
+      span {
+        color: $red;
+        font-weight: bold;
+      }
+      &:first-child {
+        border-top: none;
+      }
+      &:last-child {
+        border-bottom: none;
+      }
+    }
+    .item-wrapper {
+      border: 2px solid $blue;
+      height: 100%;
+    }
+    .item-heading {
+      font-weight: bold;
+      color: $accent-txt;
+      background: $blue;
+      border: 5px solid #124557;
+      padding: 30px 20px;
+      margin-bottom: 10px;
+      &_title {
+        text-transform: uppercase;
+        margin-bottom: 20px;
+      }
+      &_service {
+        &:not(:last-child) {
+          margin-bottom: 40px;
+        }
+      }
+      &_single-cost {
+        font-size: 40px;
+      }
+      span {
+        font-weight: normal;
+        font-size: 14px;
+      }
+    }
+  }
 }

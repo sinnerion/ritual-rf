@@ -22,5 +22,7 @@ $(document).ready(function(){
     };
     heightLeveler($('.special-serv_item'));
     heightLeveler($('.memo-item'));
+    heightLeveler($('.funner-cost_item'));
+    heightLeveler($('.item-heading'));
 
 });
