@@ -1,0 +1,22 @@
+@import "variables";
+@import "header";
+@import "sections";
+@import "media";
+
+body {
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+ul.list-unstyled {
+  list-style: none;
+}
+
+.blu-title {
+  font-weight: bold;
+  color: $light-blue;
+}

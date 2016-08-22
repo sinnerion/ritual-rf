@@ -1,0 +1,129 @@
+/* line 3, ../sass/_header.scss */
+header {
+  position: fixed;
+  width: 100%;
+  border-bottom: 1px solid #dedede;
+}
+/* line 7, ../sass/_header.scss */
+header .header-top {
+  background: #293684;
+  margin-bottom: 24px;
+}
+/* line 11, ../sass/_header.scss */
+header .main-nav {
+  font-size: 0;
+}
+/* line 13, ../sass/_header.scss */
+header .main-nav ul {
+  display: table;
+  margin: 0 auto;
+}
+/* line 17, ../sass/_header.scss */
+header .main-nav li {
+  display: inline-block;
+  margin-right: 45px;
+}
+/* line 20, ../sass/_header.scss */
+header .main-nav li:last-child {
+  margin: 0;
+}
+/* line 24, ../sass/_header.scss */
+header .main-nav a {
+  font-weight: bold;
+  display: block;
+  color: #fff;
+  line-height: 54px;
+  font-size: 14px;
+}
+/* line 30, ../sass/_header.scss */
+header .main-nav a:hover {
+  color: #b50000;
+  text-decoration: none;
+}
+/* line 36, ../sass/_header.scss */
+header .header-contact {
+  margin-bottom: 45px;
+  background: #fff;
+}
+/* line 39, ../sass/_header.scss */
+header .header-contact .funner-serv {
+  text-align: center;
+}
+/* line 41, ../sass/_header.scss */
+header .header-contact .funner-serv a {
+  font-size: 22px;
+  color: #293684;
+}
+/* line 45, ../sass/_header.scss */
+header .header-contact .funner-serv_description {
+  color: #red;
+}
+/* line 49, ../sass/_header.scss */
+header .header-contact .header-call {
+  text-align: right;
+}
+/* line 51, ../sass/_header.scss */
+header .header-contact .header-call_title {
+  color: #b50000;
+  font-size: 18px;
+}
+/* line 55, ../sass/_header.scss */
+header .header-contact .header-call a {
+  font-size: 160%;
+  color: #000;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  /* Styles */
+}
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width: 321px) {
+  /* Styles */
+}
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width: 320px) {
+  /* Styles */
+}
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* Styles */
+}
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  /* Styles */
+}
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  /* Styles */
+}
+/* Desktops and laptops ----------- */
+/* Large screens ----------- */
+@media only screen and (min-width: 1824px) {
+  /* Styles */
+}
+/* iPhone 4 ----------- */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+  /* Styles */
+}
+/* line 6, ../sass/main.scss */
+body {
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+}
+
+/* line 11, ../sass/main.scss */
+.container {
+  margin: 0 auto;
+}
+
+/* line 15, ../sass/main.scss */
+ul.list-unstyled {
+  list-style: none;
+}
+
+/* line 19, ../sass/main.scss */
+.blu-title {
+  font-weight: bold;
+  color: #003370;
+}
