@@ -306,6 +306,40 @@ section .container .heading-img {
   font-weight: normal;
   font-size: 14px;
 }
+/* line 186, ../sass/_sections.scss */
+.funner-cost_footnote {
+  text-align: center;
+  line-height: 56px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* line 3, ../sass/_footer.scss */
+footer {
+  background: #2f5a92;
+  font-weight: bold;
+  color: #fff;
+  padding: 40px 0 35px;
+}
+/* line 8, ../sass/_footer.scss */
+footer .footer-info {
+  margin: 0;
+  padding: 0;
+}
+/* line 12, ../sass/_footer.scss */
+footer .footer-call {
+  text-align: right;
+}
+/* line 14, ../sass/_footer.scss */
+footer .footer-call_title {
+  margin-bottom: 10px;
+}
+/* line 17, ../sass/_footer.scss */
+footer .footer-call_number {
+  color: #fff;
+  display: block;
+  font-size: 160%;
+}
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
@@ -331,15 +365,34 @@ section .container .heading-img {
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
   /* Styles */
 }
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 500px) {
   /* line 45, ../sass/_media.scss */
+  footer .footer-info {
+    margin-bottom: 30px !important;
+  }
+
+  /* line 48, ../sass/_media.scss */
+  footer .footer-info,
+  footer .footer-call {
+    width: 100%;
+    text-align: center;
+  }
+
+  /* line 53, ../sass/_media.scss */
+  footer .footer-info,
+  footer .footer-call_title {
+    font-size: 120%  !important;
+  }
+}
+@media only screen and (max-width: 992px) {
+  /* line 61, ../sass/_media.scss */
   header .main-nav.navbar-default li {
     width: 100%;
     display: block;
     margin-right: 0;
   }
 
-  /* line 50, ../sass/_media.scss */
+  /* line 66, ../sass/_media.scss */
   .header-contact .header-contact_link {
     text-align: center !important;
     margin-bottom: 30px;
@@ -354,24 +407,24 @@ section .container .heading-img {
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
   /* Styles */
 }
-/* line 6, ../sass/main.scss */
+/* line 7, ../sass/main.scss */
 body {
   font-family: "Arial", sans-serif;
   font-size: 14px;
   color: #000;
 }
 
-/* line 12, ../sass/main.scss */
+/* line 13, ../sass/main.scss */
 .container {
   margin: 0 auto;
 }
 
-/* line 16, ../sass/main.scss */
+/* line 17, ../sass/main.scss */
 ul.list-unstyled {
   list-style: none;
 }
 
-/* line 20, ../sass/main.scss */
+/* line 21, ../sass/main.scss */
 .blu-title {
   font-weight: bold;
   color: #003370;

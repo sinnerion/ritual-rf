@@ -41,6 +41,22 @@ and (orientation : portrait) {
 }
 
 @media only screen
+and (max-width : 500px) {
+  footer .footer-info {
+    margin-bottom: 30px !important;
+  }
+  footer .footer-info,
+  footer .footer-call {
+    width: 100%;
+    text-align: center;
+  }
+  footer .footer-info,
+  footer .footer-call_title {
+    font-size: 120%  !important;
+  }
+}
+
+@media only screen
 and (max-width : 992px) {
   header .main-nav.navbar-default li {
     width: 100%;

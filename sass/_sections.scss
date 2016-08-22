@@ -183,4 +183,10 @@ section .container {
       }
     }
   }
+  &_footnote {
+    text-align: center;
+    line-height: 56px;
+    font-weight: bold;
+    font-style: italic;
+  }
 }

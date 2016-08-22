@@ -1,0 +1,23 @@
+@import "variables";
+
+footer {
+  background: $footer;
+  font-weight: bold;
+  color: $accent-txt;
+  padding: 40px 0 35px;
+  .footer-info {
+    margin: 0;
+    padding: 0;
+  }
+  .footer-call {
+    text-align: right;
+    &_title {
+      margin-bottom: 10px;
+    }
+    &_number {
+      color: $accent-txt;
+      display: block;
+      font-size: 160%;
+    }
+  }
+}
