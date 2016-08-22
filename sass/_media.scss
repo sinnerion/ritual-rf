@@ -41,8 +41,11 @@ and (orientation : portrait) {
 }
 
 @media only screen
-and (max-width : 970px) {
-
+and (max-width : 992px) {
+  .header-contact .header-contact_link {
+    text-align: center !important;
+    margin-bottom: 30px;
+  }
 }
 
 /* Desktops and laptops ----------- */

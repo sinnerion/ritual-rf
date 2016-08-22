@@ -11,25 +11,31 @@ header .header-top {
   margin-bottom: 24px;
 }
 /* line 12, ../sass/_header.scss */
-header .main-nav {
+header .main-nav.navbar-default {
   font-size: 0;
-}
-/* line 14, ../sass/_header.scss */
-header .main-nav ul {
-  display: table;
-  margin: 0 auto;
-}
-/* line 18, ../sass/_header.scss */
-header .main-nav li {
-  display: inline-block;
-  margin-right: 45px;
-}
-/* line 21, ../sass/_header.scss */
-header .main-nav li:last-child {
+  background: transparent;
+  border: none;
   margin: 0;
 }
-/* line 25, ../sass/_header.scss */
-header .main-nav a {
+/* line 17, ../sass/_header.scss */
+header .main-nav.navbar-default ul {
+  display: table;
+  margin: 0 auto;
+  float: none;
+}
+/* line 22, ../sass/_header.scss */
+header .main-nav.navbar-default li {
+  display: inline-block;
+  margin-right: 45px;
+  float: none;
+}
+/* line 26, ../sass/_header.scss */
+header .main-nav.navbar-default li:last-child {
+  margin: 0;
+}
+/* line 30, ../sass/_header.scss */
+header .main-nav.navbar-default a {
+  padding: 0;
   font-weight: bold;
   display: block;
   color: #fff;
@@ -37,40 +43,40 @@ header .main-nav a {
   font-size: 14px;
   text-decoration: none;
 }
-/* line 32, ../sass/_header.scss */
-header .main-nav a:hover {
+/* line 38, ../sass/_header.scss */
+header .main-nav.navbar-default a:hover {
   color: #b50000;
 }
-/* line 37, ../sass/_header.scss */
+/* line 43, ../sass/_header.scss */
 header .header-contact {
   padding-bottom: 20px;
   background: #fff;
 }
-/* line 40, ../sass/_header.scss */
+/* line 46, ../sass/_header.scss */
 header .header-contact .funner-serv {
   text-align: center;
 }
-/* line 42, ../sass/_header.scss */
+/* line 48, ../sass/_header.scss */
 header .header-contact .funner-serv a {
   text-decoration: none;
   font-size: 22px;
   color: #293684;
   font-weight: bold;
 }
-/* line 48, ../sass/_header.scss */
+/* line 54, ../sass/_header.scss */
 header .header-contact .funner-serv_description {
   color: #b50000;
 }
-/* line 52, ../sass/_header.scss */
+/* line 58, ../sass/_header.scss */
 header .header-contact .header-call {
   text-align: right;
 }
-/* line 54, ../sass/_header.scss */
+/* line 60, ../sass/_header.scss */
 header .header-contact .header-call_title {
   color: #b50000;
   font-size: 18px;
 }
-/* line 58, ../sass/_header.scss */
+/* line 64, ../sass/_header.scss */
 header .header-contact .header-call a {
   font-size: 160%;
   color: #000;
@@ -148,6 +154,13 @@ header .header-contact .header-call a {
 /* iPads (portrait) ----------- */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
   /* Styles */
+}
+@media only screen and (max-width: 992px) {
+  /* line 45, ../sass/_media.scss */
+  .header-contact .header-contact_link {
+    text-align: center !important;
+    margin-bottom: 30px;
+  }
 }
 /* Desktops and laptops ----------- */
 /* Large screens ----------- */

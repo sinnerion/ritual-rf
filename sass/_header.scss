@@ -9,20 +9,26 @@ header {
     background: $blue;
     margin-bottom: 24px;
   }
-  .main-nav {
+  .main-nav.navbar-default {
     font-size: 0;
+    background: transparent;
+    border: none;
+    margin: 0;
     ul {
       display: table;
       margin: 0 auto;
+      float: none;
     }
     li {
       display: inline-block;
       margin-right: 45px;
+      float: none;
       &:last-child {
         margin: 0;
       }
     }
     a {
+      padding: 0;
       font-weight: bold;
       display: block;
       color: $accent-txt;
