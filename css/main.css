@@ -2,75 +2,127 @@
 header {
   position: fixed;
   width: 100%;
+  background: #fff;
   border-bottom: 1px solid #dedede;
 }
-/* line 7, ../sass/_header.scss */
+/* line 8, ../sass/_header.scss */
 header .header-top {
   background: #293684;
   margin-bottom: 24px;
 }
-/* line 11, ../sass/_header.scss */
+/* line 12, ../sass/_header.scss */
 header .main-nav {
   font-size: 0;
 }
-/* line 13, ../sass/_header.scss */
+/* line 14, ../sass/_header.scss */
 header .main-nav ul {
   display: table;
   margin: 0 auto;
 }
-/* line 17, ../sass/_header.scss */
+/* line 18, ../sass/_header.scss */
 header .main-nav li {
   display: inline-block;
   margin-right: 45px;
 }
-/* line 20, ../sass/_header.scss */
+/* line 21, ../sass/_header.scss */
 header .main-nav li:last-child {
   margin: 0;
 }
-/* line 24, ../sass/_header.scss */
+/* line 25, ../sass/_header.scss */
 header .main-nav a {
   font-weight: bold;
   display: block;
   color: #fff;
   line-height: 54px;
   font-size: 14px;
-}
-/* line 30, ../sass/_header.scss */
-header .main-nav a:hover {
-  color: #b50000;
   text-decoration: none;
 }
-/* line 36, ../sass/_header.scss */
+/* line 32, ../sass/_header.scss */
+header .main-nav a:hover {
+  color: #b50000;
+}
+/* line 37, ../sass/_header.scss */
 header .header-contact {
-  margin-bottom: 45px;
+  padding-bottom: 20px;
   background: #fff;
 }
-/* line 39, ../sass/_header.scss */
+/* line 40, ../sass/_header.scss */
 header .header-contact .funner-serv {
   text-align: center;
 }
-/* line 41, ../sass/_header.scss */
+/* line 42, ../sass/_header.scss */
 header .header-contact .funner-serv a {
+  text-decoration: none;
   font-size: 22px;
   color: #293684;
+  font-weight: bold;
 }
-/* line 45, ../sass/_header.scss */
+/* line 48, ../sass/_header.scss */
 header .header-contact .funner-serv_description {
-  color: #red;
+  color: #b50000;
 }
-/* line 49, ../sass/_header.scss */
+/* line 52, ../sass/_header.scss */
 header .header-contact .header-call {
   text-align: right;
 }
-/* line 51, ../sass/_header.scss */
+/* line 54, ../sass/_header.scss */
 header .header-contact .header-call_title {
   color: #b50000;
   font-size: 18px;
 }
-/* line 55, ../sass/_header.scss */
+/* line 58, ../sass/_header.scss */
 header .header-contact .header-call a {
   font-size: 160%;
   color: #000;
+}
+
+/* line 3, ../sass/_sections.scss */
+.help-call {
+  padding-top: 180px;
+  margin-bottom: 30px;
+}
+/* line 6, ../sass/_sections.scss */
+.help-call a {
+  display: block;
+  text-decoration: none;
+  width: 76%;
+  margin: 0 auto;
+  padding: 10px 0 10px 88px;
+  background: url("../img/icons/banner-phone.png") 40px center no-repeat, #b50000;
+  color: #fff;
+  font-size: 25px;
+  text-align: center;
+}
+/* line 16, ../sass/_sections.scss */
+.help-call a span {
+  font-weight: 700;
+}
+/* line 19, ../sass/_sections.scss */
+.help-call a:hover {
+  text-decoration: none;
+}
+
+/* line 24, ../sass/_sections.scss */
+.main-banner {
+  margin-bottom: 30px;
+}
+/* line 26, ../sass/_sections.scss */
+.main-banner_link {
+  margin-bottom: 30px;
+  display: block;
+}
+/* line 29, ../sass/_sections.scss */
+.main-banner_link img {
+  width: 100%;
+}
+/* line 33, ../sass/_sections.scss */
+.main-banner .partners ul {
+  display: table;
+  margin: 0 auto;
+}
+/* line 36, ../sass/_sections.scss */
+.main-banner .partners ul li {
+  display: table-cell;
 }
 
 /* Smartphones (portrait and landscape) ----------- */

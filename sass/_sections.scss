@@ -1,5 +1,40 @@
 @import "variables";
 
-section {
-
+.help-call {
+  padding-top: 180px;
+  margin-bottom: 30px;
+  a  {
+    display: block;
+    text-decoration: none;
+    width: 76%;
+    margin: 0 auto;
+    padding: 10px 0 10px 88px;
+    background: url("../img/icons/banner-phone.png") 40px center no-repeat,$red;
+    color: $accent-txt;
+    font-size: 25px;
+    text-align: center;
+    span {
+      font-weight: 700;
+    }
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+.main-banner {
+  margin-bottom: 30px;
+  &_link {
+    margin-bottom: 30px;
+    display: block;
+    img {
+      width: 100%;
+    }
+  }
+  .partners ul {
+    display: table;
+    margin: 0 auto;
+    li {
+      display: table-cell;
+    }
+  }
 }
