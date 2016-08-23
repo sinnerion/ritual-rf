@@ -2,6 +2,10 @@
 
 section {
   margin-bottom: 40px;
+  a:hover {
+    text-decoration: none;
+    color: $main-txt;
+  }
 }
 section .container {
   h2 {
@@ -261,9 +265,23 @@ section .container {
 // Безвозмездные похороны
 .funner-free {
   &_banner {
+    display: block;
     margin-bottom: 25px;
-    img {
-      width: 100%;
+    font-weight: bold;
+    font-size: 190%;
+    border: 1px solid $border;
+    border-radius: 5px;
+    background: url(../img/icons/org-icon.png) 1% center no-repeat;
+    color: #000;
+    background-size: 6%;
+    padding: 10px 0 10px 7%;
+    text-align: center;
+    &:hover {
+      text-decoration: none;
+    }
+    span {
+      text-transform: uppercase;
+      color: $red;
     }
   }
   &_memo-title {
