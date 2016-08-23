@@ -422,7 +422,7 @@ section .container .heading-img {
   position: absolute;
   left: 0;
   top: 0;
-  background: url(../img/icons/check-ico-2.png) left center no-repeat;
+  background: url(../img/icons/check-ico.png) left center no-repeat;
   background-size: cover;
 }
 /* line 288, ../sass/_sections.scss */
