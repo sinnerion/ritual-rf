@@ -53,6 +53,9 @@ section .container {
     text-decoration: none;
     text-align: center;
     color: $accent-txt;
+    &:hover {
+      color: $accent-txt;
+    }
     span {
       font-weight: 700;
     }
@@ -361,7 +364,8 @@ section .container {
     text-align: center;
     &_img {
       display: block;
-      margin-bottom: 40px;
+      margin: 0 auto 40px;
+      max-width: 570px;
       img {
         width: 100%;
       }
