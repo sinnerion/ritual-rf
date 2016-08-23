@@ -45,20 +45,26 @@ section .container {
   margin-bottom: 30px;
   a  {
     display: block;
-    text-decoration: none;
-    width: 76%;
     margin: 0 auto;
-    padding: 10px 0 10px 88px;
-    background: url("../img/icons/banner-phone.png") 40px center no-repeat,$red;
-    color: $accent-txt;
-    font-size: 25px;
+    text-decoration: none;
     text-align: center;
+    color: $accent-txt;
     span {
       font-weight: 700;
     }
-    &:hover {
-      text-decoration: none;
-    }
+  }
+  &_big {
+    width: 76%;
+    padding: 10px 0 10px 88px;
+    background: url("../img/icons/banner-phone.png") 40px center no-repeat, $red;
+    font-size: 25px;
+  }
+  &_small {
+    width: 100%;
+    padding: 10px 10px 6%;
+    background: url("../img/icons/banner-phone.png") center 95% no-repeat, #b50000;
+    background-size: 5%;
+    font-size: 20px;
   }
 }
 .main-banner {
