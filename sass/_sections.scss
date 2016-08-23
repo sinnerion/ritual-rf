@@ -359,6 +359,9 @@ section .container {
     &_img {
       display: block;
       margin-bottom: 40px;
+      img {
+        width: 100%;
+      }
     }
     &_call {
       font-weight: bold;

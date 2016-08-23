@@ -508,37 +508,41 @@ section .container .heading-img {
   display: block;
   margin-bottom: 40px;
 }
-/* line 363, ../sass/_sections.scss */
+/* line 362, ../sass/_sections.scss */
+.up-guarantee .banner-church_img img {
+  width: 100%;
+}
+/* line 366, ../sass/_sections.scss */
 .up-guarantee .banner-church_call {
   font-weight: bold;
   font-size: 20px;
 }
-/* line 366, ../sass/_sections.scss */
+/* line 369, ../sass/_sections.scss */
 .up-guarantee .banner-church_call a {
   color: #b50000;
   display: block;
   font-size: 26px;
 }
 
-/* line 374, ../sass/_sections.scss */
+/* line 377, ../sass/_sections.scss */
 .address-map {
   margin-bottom: 10px;
 }
-/* line 376, ../sass/_sections.scss */
+/* line 379, ../sass/_sections.scss */
 .address-map .yandex-map {
   margin-bottom: 20px;
 }
-/* line 379, ../sass/_sections.scss */
+/* line 382, ../sass/_sections.scss */
 .address-map .hot-line {
   text-align: center;
   font-weight: bold;
   font-size: 28px;
 }
-/* line 381, ../sass/_sections.scss */
+/* line 384, ../sass/_sections.scss */
 .address-map .hot-line p {
   margin: 0 0 24px;
 }
-/* line 386, ../sass/_sections.scss */
+/* line 389, ../sass/_sections.scss */
 .address-map .hot-line a {
   font-size: 36px;
   color: #b50000;
