@@ -24,5 +24,6 @@ $(document).ready(function(){
     heightLeveler($('.memo-item'));
     heightLeveler($('.funner-cost_item'));
     heightLeveler($('.item-heading'));
+    heightLeveler($('.privileges-item'));
 
 });

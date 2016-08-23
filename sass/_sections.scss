@@ -190,3 +190,40 @@ section .container {
     font-style: italic;
   }
 }
+.privileges {
+  margin-bottom: 50px;
+  &-item {
+    color: $accent-txt;
+    font-weight: bold;
+    text-align: center;
+
+    &_cost {
+      position: absolute;
+      font-size: 35px;
+      left: 25%;
+      span {
+        font-weight: normal;
+        font-size: 14px;
+      }
+    }
+  }
+  .item-wrapper {
+    position: relative;
+    height: 100%;
+    padding: 10px 30px 65%;
+  }
+  .item-blue {
+    background: $blue;
+    border: 4px solid #124557;
+    .privileges-item_cost {
+      bottom: 25%;
+    }
+  }
+  .item-red {
+    background: $red;
+    border: 4px solid #6e0707;
+    .privileges-item_cost {
+      bottom: 12%;
+    }
+  }
+}
