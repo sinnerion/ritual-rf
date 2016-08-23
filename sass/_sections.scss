@@ -1,5 +1,8 @@
 @import "variables";
 
+section {
+  margin-bottom: 40px;
+}
 section .container {
   h2 {
     text-align: center;
@@ -10,6 +13,9 @@ section .container {
   .bold-heading {
     font-weight: bold;
     font-size: 38px;
+  }
+  .light-heading {
+    color: $section-heading;
   }
   table tbody tr td {
     padding: 0;
@@ -74,7 +80,6 @@ section .container {
 }
 // Список первоочередных действий в случае наступлении смерти близкого человека
 .memo {
-  margin-bottom: 45px;
   &-title {
     margin: 0 0 20px;
     text-align: center;
@@ -127,7 +132,6 @@ section .container {
 }
 // Московская городская специализированная служба по вопросам похоронного дела
 .special-serv {
-  margin-bottom: 40px;
   &_item {
     padding: 0 10px 0 0;
     margin-bottom: 30px;
@@ -146,6 +150,7 @@ section .container {
 }
 // Стоимость организации похорон
 .funner-cost {
+  margin-bottom: 0;
   &_item {
     text-align: center;
     li {
@@ -203,7 +208,6 @@ section .container {
 }
 // Льготы на организацию похорон
 .privileges {
-  margin-bottom: 50px;
   &-item {
     color: $accent-txt;
     font-weight: bold;
@@ -241,50 +245,6 @@ section .container {
 }
 // Безвозмездные похороны
 .funner-free {
-  margin-bottom: 40px;
-  &_item {
-    font-size: 16px;
-    margin-bottom: 20px;
-    .item-wrapper {
-      height: 100%;
-      border: 2px solid $border;
-    }
-    .item-heading {
-      text-align: center;
-      color: $accent-txt;
-      font-size: 24px;
-      line-height: 60px;
-      &_blue {
-        background: $blue;
-        border: 4px solid $border-blue;
-      }
-      &_red {
-        background: $red;
-        border: 4px solid $border-red;
-      }
-    }
-    .item-description {
-      padding: 20px 20px;
-      font-size: 16px;
-      li {
-        display: block;
-        padding-left: 30px;
-        position: relative;
-        margin-bottom: 20px;
-        &:before {
-          content: "";
-          display: block;
-          width: 18px;
-          height: 18px;
-          position: absolute;
-          left: 0;
-          top: 0;
-          background: url(../img/icons/check-ico.png) left center no-repeat;
-          background-size: cover;
-        }
-      }
-    }
-  }
   &_banner {
     margin-bottom: 25px;
     img {
@@ -296,7 +256,7 @@ section .container {
     margin-bottom: 35px;
   }
   &_memo-list {
-    padding: 0;
+    padding: 0 0 0 15px;
     margin: 0 0 15px;
   }
   &_memo-attention {
@@ -304,5 +264,77 @@ section .container {
     color: $red;
     font-style: italic;
     font-weight: bold;
+  }
+}
+// Блоки с синими и красными шапками
+.service-table {
+  font-size: 16px;
+  margin-bottom: 20px;
+  .item-wrapper {
+    height: 100%;
+    border: 2px solid $border;
+  }
+  .item-heading {
+    text-align: center;
+    color: $accent-txt;
+    font-size: 24px;
+    line-height: 60px;
+    &_blue {
+      background: $blue;
+      border: 4px solid $border-blue;
+    }
+    &_red {
+      background: $red;
+      border: 4px solid $border-red;
+    }
+  }
+  .item-description {
+    padding: 20px 20px;
+    font-size: 16px;
+    li {
+      display: block;
+      padding-left: 30px;
+      position: relative;
+      margin-bottom: 20px;
+      &:before {
+        content: "";
+        display: block;
+        width: 18px;
+        height: 18px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        background: url(../img/icons/check-ico.png) left center no-repeat;
+        background-size: cover;
+      }
+    }
+  }
+}
+// Сверх гарантии
+.up-guarantee {
+  &_item {
+    margin-bottom: 25px;
+    ul {
+      font-weight: bold;
+      span {
+        color: $red;
+      }
+    }
+  }
+  .banner-church {
+    text-align: center;
+    &_img {
+      display: block;
+      margin-bottom: 40px;
+    }
+    &_call {
+      font-weight: bold;
+      font-size: 20px;
+      a {
+        color: $red;
+        display: block;
+        font-size: 26px;
+      }
+    }
   }
 }

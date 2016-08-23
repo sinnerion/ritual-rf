@@ -26,5 +26,6 @@ $(document).ready(function(){
     heightLeveler($('.funner-cost_item-heading'));
     heightLeveler($('.privileges-item'));
     heightLeveler($('.funner-free_item'));
+    heightLeveler($('.up-guarantee_item'));
 
 });
