@@ -279,6 +279,9 @@ section .container {
     &:hover {
       text-decoration: none;
     }
+    img {
+      margin: 0 auto 10px;
+    }
     span {
       text-transform: uppercase;
       color: $red;
