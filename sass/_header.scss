@@ -1,8 +1,6 @@
 @import "variables";
 
-header {
-  display: none;
-  position: fixed;
+.main-header {
   z-index: 9999;
   width: 100%;
   top: 0;

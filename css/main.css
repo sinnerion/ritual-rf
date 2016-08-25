@@ -1,43 +1,41 @@
 /* line 3, ../sass/_header.scss */
-header {
-  display: none;
-  position: fixed;
+.main-header {
   z-index: 9999;
   width: 100%;
   top: 0;
   background: #fff;
   border-bottom: 1px solid #dedede;
 }
-/* line 14, ../sass/_header.scss */
-header .header-top {
+/* line 12, ../sass/_header.scss */
+.main-header .header-top {
   background: #293684;
   margin-bottom: 24px;
 }
-/* line 18, ../sass/_header.scss */
-header .main-nav.navbar-default {
+/* line 16, ../sass/_header.scss */
+.main-header .main-nav.navbar-default {
   font-size: 0;
   background: transparent;
   border: none;
   margin: 0;
 }
-/* line 23, ../sass/_header.scss */
-header .main-nav.navbar-default ul {
+/* line 21, ../sass/_header.scss */
+.main-header .main-nav.navbar-default ul {
   display: table;
   margin: 0 auto;
   float: none;
 }
-/* line 28, ../sass/_header.scss */
-header .main-nav.navbar-default li {
+/* line 26, ../sass/_header.scss */
+.main-header .main-nav.navbar-default li {
   display: inline-block;
   margin-right: 45px;
   float: none;
 }
-/* line 32, ../sass/_header.scss */
-header .main-nav.navbar-default li:last-child {
+/* line 30, ../sass/_header.scss */
+.main-header .main-nav.navbar-default li:last-child {
   margin: 0;
 }
-/* line 36, ../sass/_header.scss */
-header .main-nav.navbar-default a {
+/* line 34, ../sass/_header.scss */
+.main-header .main-nav.navbar-default a {
   padding: 0;
   font-weight: bold;
   display: block;
@@ -46,41 +44,41 @@ header .main-nav.navbar-default a {
   font-size: 14px;
   text-decoration: none;
 }
-/* line 44, ../sass/_header.scss */
-header .main-nav.navbar-default a:hover {
+/* line 42, ../sass/_header.scss */
+.main-header .main-nav.navbar-default a:hover {
   color: #b50000;
 }
-/* line 49, ../sass/_header.scss */
-header .header-contact {
+/* line 47, ../sass/_header.scss */
+.main-header .header-contact {
   padding-bottom: 20px;
   background: #fff;
 }
-/* line 52, ../sass/_header.scss */
-header .header-contact .funner-serv {
+/* line 50, ../sass/_header.scss */
+.main-header .header-contact .funner-serv {
   text-align: center;
 }
-/* line 54, ../sass/_header.scss */
-header .header-contact .funner-serv a {
+/* line 52, ../sass/_header.scss */
+.main-header .header-contact .funner-serv a {
   text-decoration: none;
   font-size: 22px;
   color: #293684;
   font-weight: bold;
 }
-/* line 60, ../sass/_header.scss */
-header .header-contact .funner-serv_description {
+/* line 58, ../sass/_header.scss */
+.main-header .header-contact .funner-serv_description {
   color: #b50000;
 }
-/* line 64, ../sass/_header.scss */
-header .header-contact .header-call {
+/* line 62, ../sass/_header.scss */
+.main-header .header-contact .header-call {
   text-align: right;
 }
-/* line 66, ../sass/_header.scss */
-header .header-contact .header-call_title {
+/* line 64, ../sass/_header.scss */
+.main-header .header-contact .header-call_title {
   color: #b50000;
   font-size: 18px;
 }
-/* line 70, ../sass/_header.scss */
-header .header-contact .header-call a {
+/* line 68, ../sass/_header.scss */
+.main-header .header-contact .header-call a {
   font-size: 160%;
   color: #000;
 }
@@ -707,16 +705,11 @@ body {
 }
 
 /* line 13, ../sass/main.scss */
-.container {
-  margin: 0 auto;
-}
-
-/* line 17, ../sass/main.scss */
 ul.list-unstyled {
   list-style: none;
 }
 
-/* line 21, ../sass/main.scss */
+/* line 17, ../sass/main.scss */
 .blu-title {
   font-weight: bold;
   color: #003370;
