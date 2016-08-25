@@ -1,5 +1,6 @@
-@import "variables";
-@import "bootstrap-sass/bootstrap";
+@import "vars";
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap-compass";
 @import "header";
 @import "sections";
 @import "footer";

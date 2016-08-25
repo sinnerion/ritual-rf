@@ -42,8 +42,9 @@ and (orientation : portrait) {
 
 @media only screen
 and (max-width : 500px) {
-  section h2 {
-    font-size: 220%;
+  section .container h2,
+  section .container h2.bold-heading {
+    font-size: 25px;
   }
   footer .footer-info {
     margin-bottom: 30px !important;
