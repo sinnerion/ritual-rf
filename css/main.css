@@ -8974,16 +8974,15 @@ section .container .heading-img {
 .memo-item {
   font-size: 0;
   margin-bottom: 10px;
-  height: 100%;
 }
-/* line 110, ../sass/_sections.scss */
+/* line 109, ../sass/_sections.scss */
 .memo-item_wrapper {
   padding: 15px;
   border: 2px solid #dedede;
   height: 100%;
   border-radius: 2px;
 }
-/* line 116, ../sass/_sections.scss */
+/* line 115, ../sass/_sections.scss */
 .memo-item_number {
   float: left;
   margin-right: 25px;
@@ -8994,15 +8993,15 @@ section .container .heading-img {
   font-size: 32px;
   border-radius: 5px;
 }
-/* line 126, ../sass/_sections.scss */
+/* line 125, ../sass/_sections.scss */
 .memo-item_description {
   font-size: 18px;
 }
-/* line 128, ../sass/_sections.scss */
+/* line 127, ../sass/_sections.scss */
 .memo-item_description a {
   color: inherit;
 }
-/* line 133, ../sass/_sections.scss */
+/* line 132, ../sass/_sections.scss */
 .memo-attention {
   box-shadow: 0px 3px 4px #b0b0b0;
   text-align: center;
@@ -9010,51 +9009,51 @@ section .container .heading-img {
   border: 1px solid #dedede;
   border-radius: 4px;
 }
-/* line 139, ../sass/_sections.scss */
+/* line 138, ../sass/_sections.scss */
 .memo-attention_title {
   font-size: 24px;
   color: #b50000;
   margin-bottom: 25px;
   font-weight: bold;
 }
-/* line 145, ../sass/_sections.scss */
+/* line 144, ../sass/_sections.scss */
 .memo-attention_description {
   margin: 0;
   font-size: 18px;
 }
 
-/* line 153, ../sass/_sections.scss */
+/* line 152, ../sass/_sections.scss */
 .special-serv_item {
   padding: 0 10px 0 0;
   margin: 0;
 }
-/* line 156, ../sass/_sections.scss */
+/* line 155, ../sass/_sections.scss */
 .special-serv_item:last-child {
   margin-bottom: 0;
 }
-/* line 160, ../sass/_sections.scss */
+/* line 159, ../sass/_sections.scss */
 .special-serv .item-title {
   font-size: 22px;
   margin-bottom: 20px;
   color: #b50000;
   font-weight: bold;
 }
-/* line 166, ../sass/_sections.scss */
+/* line 165, ../sass/_sections.scss */
 .special-serv .item-description {
   font-size: 18px;
   margin: 0;
   padding: 0 20% 0 0;
 }
 
-/* line 173, ../sass/_sections.scss */
+/* line 172, ../sass/_sections.scss */
 .funner-cost {
   margin-bottom: 0;
 }
-/* line 175, ../sass/_sections.scss */
+/* line 174, ../sass/_sections.scss */
 .funner-cost_item {
   text-align: center;
 }
-/* line 177, ../sass/_sections.scss */
+/* line 176, ../sass/_sections.scss */
 .funner-cost_item li {
   width: 83.6%;
   margin: 0 auto;
@@ -9062,25 +9061,25 @@ section .container .heading-img {
   border-top: 1px solid #dedede;
   border-bottom: 1px solid #dedede;
 }
-/* line 183, ../sass/_sections.scss */
+/* line 182, ../sass/_sections.scss */
 .funner-cost_item li span {
   color: #b50000;
   font-weight: bold;
 }
-/* line 187, ../sass/_sections.scss */
+/* line 186, ../sass/_sections.scss */
 .funner-cost_item li:first-child {
   border-top: none;
 }
-/* line 190, ../sass/_sections.scss */
+/* line 189, ../sass/_sections.scss */
 .funner-cost_item li:last-child {
   border-bottom: none;
 }
-/* line 194, ../sass/_sections.scss */
+/* line 193, ../sass/_sections.scss */
 .funner-cost_item .item-wrapper {
   border: 2px solid #293684;
   height: 100%;
 }
-/* line 198, ../sass/_sections.scss */
+/* line 197, ../sass/_sections.scss */
 .funner-cost_item-heading {
   font-weight: bold;
   color: #fff;
@@ -9089,25 +9088,25 @@ section .container .heading-img {
   padding: 30px 20px;
   margin-bottom: 10px;
 }
-/* line 205, ../sass/_sections.scss */
+/* line 204, ../sass/_sections.scss */
 .funner-cost_item-heading .item-heading_title {
   text-transform: uppercase;
   margin-bottom: 20px;
 }
-/* line 210, ../sass/_sections.scss */
+/* line 209, ../sass/_sections.scss */
 .funner-cost_item-heading .item-heading_service:not(:last-child) {
   margin-bottom: 40px;
 }
-/* line 214, ../sass/_sections.scss */
+/* line 213, ../sass/_sections.scss */
 .funner-cost_item-heading .item-heading_single-cost {
   font-size: 40px;
 }
-/* line 217, ../sass/_sections.scss */
+/* line 216, ../sass/_sections.scss */
 .funner-cost_item-heading span {
   font-weight: normal;
   font-size: 14px;
 }
-/* line 223, ../sass/_sections.scss */
+/* line 222, ../sass/_sections.scss */
 .funner-cost_footnote {
   text-align: center;
   line-height: 56px;
@@ -9115,49 +9114,49 @@ section .container .heading-img {
   font-style: italic;
 }
 
-/* line 232, ../sass/_sections.scss */
+/* line 231, ../sass/_sections.scss */
 .privileges-item {
   color: #fff;
   font-weight: bold;
   text-align: center;
 }
-/* line 237, ../sass/_sections.scss */
+/* line 236, ../sass/_sections.scss */
 .privileges-item_cost {
   position: absolute;
   font-size: 35px;
   left: 25%;
 }
-/* line 241, ../sass/_sections.scss */
+/* line 240, ../sass/_sections.scss */
 .privileges-item_cost span {
   font-weight: normal;
   font-size: 14px;
 }
-/* line 247, ../sass/_sections.scss */
+/* line 246, ../sass/_sections.scss */
 .privileges .item-wrapper {
   position: relative;
   height: 100%;
   padding: 10px 30px 65%;
 }
-/* line 252, ../sass/_sections.scss */
+/* line 251, ../sass/_sections.scss */
 .privileges .item-blue {
   background: #293684;
   border: 4px solid #124557;
 }
-/* line 255, ../sass/_sections.scss */
+/* line 254, ../sass/_sections.scss */
 .privileges .item-blue .privileges-item_cost {
   bottom: 25%;
 }
-/* line 259, ../sass/_sections.scss */
+/* line 258, ../sass/_sections.scss */
 .privileges .item-red {
   background: #b50000;
   border: 4px solid #6e0707;
 }
-/* line 262, ../sass/_sections.scss */
+/* line 261, ../sass/_sections.scss */
 .privileges .item-red .privileges-item_cost {
   bottom: 12%;
 }
 
-/* line 269, ../sass/_sections.scss */
+/* line 268, ../sass/_sections.scss */
 .funner-free_banner {
   display: block;
   margin-bottom: 25px;
@@ -9171,30 +9170,30 @@ section .container .heading-img {
   padding: 10px 0;
   text-align: center;
 }
-/* line 281, ../sass/_sections.scss */
+/* line 280, ../sass/_sections.scss */
 .funner-free_banner:hover {
   text-decoration: none;
 }
-/* line 284, ../sass/_sections.scss */
+/* line 283, ../sass/_sections.scss */
 .funner-free_banner img {
   margin: 0 auto 10px;
 }
-/* line 287, ../sass/_sections.scss */
+/* line 286, ../sass/_sections.scss */
 .funner-free_banner span {
   text-transform: uppercase;
   color: #b50000;
 }
-/* line 292, ../sass/_sections.scss */
+/* line 291, ../sass/_sections.scss */
 .funner-free_memo-title {
   font-weight: bold;
   margin-bottom: 35px;
 }
-/* line 296, ../sass/_sections.scss */
+/* line 295, ../sass/_sections.scss */
 .funner-free_memo-list {
   padding: 0 0 0 15px;
   margin: 0 0 15px;
 }
-/* line 300, ../sass/_sections.scss */
+/* line 299, ../sass/_sections.scss */
 .funner-free_memo-attention {
   margin: 0;
   color: #b50000;
@@ -9202,46 +9201,46 @@ section .container .heading-img {
   font-weight: bold;
 }
 
-/* line 308, ../sass/_sections.scss */
+/* line 307, ../sass/_sections.scss */
 .service-table {
   font-size: 16px;
   margin-bottom: 20px;
 }
-/* line 311, ../sass/_sections.scss */
+/* line 310, ../sass/_sections.scss */
 .service-table .item-wrapper {
   height: 100%;
   border: 2px solid #dedede;
 }
-/* line 315, ../sass/_sections.scss */
+/* line 314, ../sass/_sections.scss */
 .service-table .item-heading {
   text-align: center;
   color: #fff;
   font-size: 24px;
   line-height: 60px;
 }
-/* line 320, ../sass/_sections.scss */
+/* line 319, ../sass/_sections.scss */
 .service-table .item-heading_blue {
   background: #293684;
   border: 4px solid #124557;
 }
-/* line 324, ../sass/_sections.scss */
+/* line 323, ../sass/_sections.scss */
 .service-table .item-heading_red {
   background: #b50000;
   border: 4px solid #6e0707;
 }
-/* line 329, ../sass/_sections.scss */
+/* line 328, ../sass/_sections.scss */
 .service-table .item-description {
   padding: 20px 20px;
   font-size: 16px;
 }
-/* line 332, ../sass/_sections.scss */
+/* line 331, ../sass/_sections.scss */
 .service-table .item-description li {
   display: block;
   padding-left: 30px;
   position: relative;
   margin-bottom: 20px;
 }
-/* line 337, ../sass/_sections.scss */
+/* line 336, ../sass/_sections.scss */
 .service-table .item-description li:before {
   content: "";
   display: block;
@@ -9254,63 +9253,63 @@ section .container .heading-img {
   background-size: cover;
 }
 
-/* line 353, ../sass/_sections.scss */
+/* line 352, ../sass/_sections.scss */
 .up-guarantee_item {
   margin-bottom: 25px;
 }
-/* line 355, ../sass/_sections.scss */
+/* line 354, ../sass/_sections.scss */
 .up-guarantee_item ul {
   font-weight: bold;
 }
-/* line 357, ../sass/_sections.scss */
+/* line 356, ../sass/_sections.scss */
 .up-guarantee_item ul span {
   color: #b50000;
 }
-/* line 362, ../sass/_sections.scss */
+/* line 361, ../sass/_sections.scss */
 .up-guarantee .banner-church {
   text-align: center;
 }
-/* line 364, ../sass/_sections.scss */
+/* line 363, ../sass/_sections.scss */
 .up-guarantee .banner-church_img {
   display: block;
   margin: 0 auto 40px;
   max-width: 570px;
 }
-/* line 368, ../sass/_sections.scss */
+/* line 367, ../sass/_sections.scss */
 .up-guarantee .banner-church_img img {
   width: 100%;
 }
-/* line 372, ../sass/_sections.scss */
+/* line 371, ../sass/_sections.scss */
 .up-guarantee .banner-church_call {
   font-weight: bold;
   font-size: 20px;
 }
-/* line 375, ../sass/_sections.scss */
+/* line 374, ../sass/_sections.scss */
 .up-guarantee .banner-church_call a {
   color: #b50000;
   display: block;
   font-size: 26px;
 }
 
-/* line 383, ../sass/_sections.scss */
+/* line 382, ../sass/_sections.scss */
 .address-map {
   margin-bottom: 10px;
 }
-/* line 385, ../sass/_sections.scss */
+/* line 384, ../sass/_sections.scss */
 .address-map .yandex-map {
   margin-bottom: 20px;
 }
-/* line 388, ../sass/_sections.scss */
+/* line 387, ../sass/_sections.scss */
 .address-map .hot-line {
   text-align: center;
   font-weight: bold;
   font-size: 28px;
 }
-/* line 390, ../sass/_sections.scss */
+/* line 389, ../sass/_sections.scss */
 .address-map .hot-line p {
   margin: 0 0 24px;
 }
-/* line 395, ../sass/_sections.scss */
+/* line 394, ../sass/_sections.scss */
 .address-map .hot-line a {
   font-size: 36px;
   color: #b50000;

@@ -30,12 +30,12 @@ $(document).ready(function(){
         });
         column.height(blockHeight);
     };
-    heightLeveler($('.special-serv_item'));
+    // heightLeveler($('.special-serv_item'));
     // heightLeveler($('.memo-item'));
-    heightLeveler($('.funner-cost_item'));
+    // heightLeveler($('.funner-cost_item'));
     heightLeveler($('.funner-cost_item-heading'));
-    heightLeveler($('.privileges-item'));
-    heightLeveler($('.funner-free_item'));
-    heightLeveler($('.up-guarantee_item'));
+    // heightLeveler($('.privileges-item'));
+    // heightLeveler($('.funner-free_item'));
+    // heightLeveler($('.up-guarantee_item'));
 
 });
