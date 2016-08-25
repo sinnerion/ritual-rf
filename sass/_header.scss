@@ -16,39 +16,9 @@ nav.main-nav.navbar-default {
   }
 }
 
-//.main-nav {
-//  font-size: 0;
-//  background: transparent;
-//  border: none;
-//  margin: 0;
-//  ul {
-//    display: table;
-//    margin: 0 auto;
-//    float: none;
-//  }
-//  li {
-//    display: inline-block;
-//    margin-right: 45px;
-//    float: none;
-//    &:last-child {
-//      margin: 0;
-//    }
-//  }
-//  a {
-//    padding: 0;
-//    font-weight: bold;
-//    display: block;
-//    color: $accent-txt;
-//    line-height: 54px;
-//    font-size: 14px;
-//    text-decoration: none;
-//    &:hover {
-//      color: $red;
-//    }
-//  }
-//}
 .header-contact {
-  padding-bottom: 20px;
+  margin-top: 70px;
+  margin-bottom: 25px;
   background: #fff;
   .funner-serv {
     text-align: center;
