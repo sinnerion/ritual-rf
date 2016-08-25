@@ -106,7 +106,7 @@ section .container {
   &-item {
     font-size: 0;
     margin-bottom: 10px;
-    min-height: 100px;
+    height: 100%;
     &_wrapper {
       padding: 15px;
       border: 2px solid $border;
@@ -115,7 +115,7 @@ section .container {
     }
     &_number {
       float: left;
-      margin-right: 10px;
+      margin-right: 25px;
       line-height: 70px;
       padding: 0 40px;
       background: $red;
@@ -152,7 +152,7 @@ section .container {
 .special-serv {
   &_item {
     padding: 0 10px 0 0;
-    margin-bottom: 30px;
+    margin: 0;
     &:last-child {
       margin-bottom: 0;
     }
@@ -270,13 +270,13 @@ section .container {
     display: block;
     margin-bottom: 25px;
     font-weight: bold;
-    font-size: 190%;
+    font-size: 170%;
     border: 1px solid $border;
     border-radius: 5px;
     background: url(../img/icons/org-icon.png) 1% center no-repeat;
     color: #000;
     background-size: 6%;
-    padding: 10px 0 10px 7%;
+    padding: 10px 0;
     text-align: center;
     &:hover {
       text-decoration: none;

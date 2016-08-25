@@ -9,6 +9,7 @@ nav.main-nav.navbar-default {
   }
   a {
     color: $accent-txt;
+    padding-right: 22px;
     font-weight: bold;
     &:hover {
       color: $red;

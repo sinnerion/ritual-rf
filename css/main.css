@@ -8801,44 +8801,45 @@ nav.main-nav.navbar-default ul.nav.navbar-nav {
 /* line 10, ../sass/_header.scss */
 nav.main-nav.navbar-default a {
   color: #fff;
+  padding-right: 22px;
   font-weight: bold;
 }
-/* line 13, ../sass/_header.scss */
+/* line 14, ../sass/_header.scss */
 nav.main-nav.navbar-default a:hover {
   color: #b50000;
 }
 
-/* line 19, ../sass/_header.scss */
+/* line 20, ../sass/_header.scss */
 .header-contact {
   margin-top: 70px;
   margin-bottom: 25px;
   background: #fff;
 }
-/* line 23, ../sass/_header.scss */
+/* line 24, ../sass/_header.scss */
 .header-contact .funner-serv {
   text-align: center;
 }
-/* line 25, ../sass/_header.scss */
+/* line 26, ../sass/_header.scss */
 .header-contact .funner-serv a {
   text-decoration: none;
   font-size: 22px;
   color: #293684;
   font-weight: bold;
 }
-/* line 31, ../sass/_header.scss */
+/* line 32, ../sass/_header.scss */
 .header-contact .funner-serv_description {
   color: #b50000;
 }
-/* line 35, ../sass/_header.scss */
+/* line 36, ../sass/_header.scss */
 .header-contact .header-call {
   text-align: right;
 }
-/* line 37, ../sass/_header.scss */
+/* line 38, ../sass/_header.scss */
 .header-contact .header-call_title {
   color: #b50000;
   font-size: 18px;
 }
-/* line 41, ../sass/_header.scss */
+/* line 42, ../sass/_header.scss */
 .header-contact .header-call a {
   font-size: 160%;
   color: #000;
@@ -8973,7 +8974,7 @@ section .container .heading-img {
 .memo-item {
   font-size: 0;
   margin-bottom: 10px;
-  min-height: 100px;
+  height: 100%;
 }
 /* line 110, ../sass/_sections.scss */
 .memo-item_wrapper {
@@ -8985,7 +8986,7 @@ section .container .heading-img {
 /* line 116, ../sass/_sections.scss */
 .memo-item_number {
   float: left;
-  margin-right: 10px;
+  margin-right: 25px;
   line-height: 70px;
   padding: 0 40px;
   background: #b50000;
@@ -9025,7 +9026,7 @@ section .container .heading-img {
 /* line 153, ../sass/_sections.scss */
 .special-serv_item {
   padding: 0 10px 0 0;
-  margin-bottom: 30px;
+  margin: 0;
 }
 /* line 156, ../sass/_sections.scss */
 .special-serv_item:last-child {
@@ -9161,13 +9162,13 @@ section .container .heading-img {
   display: block;
   margin-bottom: 25px;
   font-weight: bold;
-  font-size: 190%;
+  font-size: 170%;
   border: 1px solid #dedede;
   border-radius: 5px;
   background: url(../img/icons/org-icon.png) 1% center no-repeat;
   color: #000;
   background-size: 6%;
-  padding: 10px 0 10px 7%;
+  padding: 10px 0;
   text-align: center;
 }
 /* line 281, ../sass/_sections.scss */
@@ -9394,8 +9395,8 @@ footer .footer-call_number {
 @media only screen and (max-width: 767px) {
   /* line 65, ../sass/_media.scss */
   .special-serv_item {
-    padding-left: 25%;
-    margin-bottom: 50px;
+    padding-left: 22%;
+    margin-bottom: 30px;
   }
   /* line 68, ../sass/_media.scss */
   .special-serv_item .item-description {
@@ -9467,4 +9468,22 @@ ul.list-unstyled {
 .blu-title {
   font-weight: bold;
   color: #003370;
+}
+
+/* line 24, ../sass/main.scss */
+.flex-row.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* line 28, ../sass/main.scss */
+.flex-row.row > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+}
+
+/* line 32, ../sass/main.scss */
+.flex-row.row:after,
+.flex-row.row:before {
+  display: flex;
 }
