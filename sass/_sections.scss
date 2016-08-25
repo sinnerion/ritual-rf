@@ -1,7 +1,7 @@
 @import "vars";
 
 section {
-  margin-bottom: 40px;
+  margin-bottom: 4rem;
   a:hover {
     text-decoration: none;
     color: $main-txt;
@@ -10,13 +10,13 @@ section {
 section .container {
   h2 {
     text-align: center;
-    font-size: 40px;
+    font-size: 4rem;
     margin: 0 0 20px;
     color: $blue;
   }
   .bold-heading {
     font-weight: bold;
-    font-size: 38px;
+    font-size: 3.6rem;
   }
   .light-heading {
     color: $section-heading;
@@ -149,12 +149,10 @@ section .container {
 }
 // Московская городская специализированная служба по вопросам похоронного дела
 .special-serv {
+  margin-bottom: 10px;
   &_item {
-    padding: 0 10px 0 0;
+    padding: 0 0 3rem;
     margin: 0;
-    &:last-child {
-      margin-bottom: 0;
-    }
   }
   .item-title {
     font-size: 22px;
@@ -167,6 +165,9 @@ section .container {
     margin: 0;
     padding: 0 20% 0 0;
   }
+}
+.special-serv_item:nth-of-type(2) {
+  padding: 0;
 }
 // Стоимость организации похорон
 .funner-cost {
@@ -228,6 +229,9 @@ section .container {
 }
 // Льготы на организацию похорон
 .privileges {
+  .bold-heading {
+    font-size: 3.2rem;
+  }
   &-item {
     color: $accent-txt;
     font-weight: bold;
@@ -265,6 +269,9 @@ section .container {
 }
 // Безвозмездные похороны
 .funner-free {
+  h2.bold-heading {
+    color: $section-heading;
+  }
   &_banner {
     display: block;
     margin-bottom: 25px;
@@ -349,6 +356,9 @@ section .container {
 }
 // Сверх гарантии
 .up-guarantee {
+  h2.light-heading {
+    font-size: 3.6rem;
+  }
   &_item {
     margin-bottom: 25px;
     ul {
@@ -380,6 +390,9 @@ section .container {
   }
 }
 .address-map {
+  h2.bold-heading {
+    font-size: 3.2rem;
+  }
   margin-bottom: 10px;
   .yandex-map  {
     margin-bottom: 20px;
