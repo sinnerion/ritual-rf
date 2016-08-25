@@ -1,74 +1,76 @@
 @import "variables";
 
-.main-header {
-  z-index: 9999;
-  width: 100%;
-  top: 0;
-  background: #fff;
-  border-bottom: 1px solid $border;
-//  &.header-fixed {
-//    position: fixed;
-//  }
-  .header-top {
-    background: $blue;
-    margin-bottom: 24px;
+nav.main-nav.navbar-default {
+  background: $blue;
+  ul.nav.navbar-nav {
+    float: none;
+    display: table;
+    margin: 0 auto;
   }
-  .main-nav.navbar-default {
-    font-size: 0;
-    background: transparent;
-    border: none;
-    margin: 0;
-    ul {
-      display: table;
-      margin: 0 auto;
-      float: none;
+  a {
+    color: $accent-txt;
+    font-weight: bold;
+    &:hover {
+      color: $red;
     }
-    li {
-      display: inline-block;
-      margin-right: 45px;
-      float: none;
-      &:last-child {
-        margin: 0;
-      }
+  }
+}
+
+//.main-nav {
+//  font-size: 0;
+//  background: transparent;
+//  border: none;
+//  margin: 0;
+//  ul {
+//    display: table;
+//    margin: 0 auto;
+//    float: none;
+//  }
+//  li {
+//    display: inline-block;
+//    margin-right: 45px;
+//    float: none;
+//    &:last-child {
+//      margin: 0;
+//    }
+//  }
+//  a {
+//    padding: 0;
+//    font-weight: bold;
+//    display: block;
+//    color: $accent-txt;
+//    line-height: 54px;
+//    font-size: 14px;
+//    text-decoration: none;
+//    &:hover {
+//      color: $red;
+//    }
+//  }
+//}
+.header-contact {
+  padding-bottom: 20px;
+  background: #fff;
+  .funner-serv {
+    text-align: center;
+    a {
+      text-decoration: none;
+      font-size: 22px;
+      color: $blue;
+      font-weight: bold;
+    }
+    &_description {
+      color: $red;
+    }
+  }
+  .header-call {
+    text-align: right;
+    &_title {
+      color: $red;
+      font-size: 18px;
     }
     a {
-      padding: 0;
-      font-weight: bold;
-      display: block;
-      color: $accent-txt;
-      line-height: 54px;
-      font-size: 14px;
-      text-decoration: none;
-      &:hover {
-        color: $red;
-      }
-    }
-  }
-  .header-contact {
-    padding-bottom: 20px;
-    background: #fff;
-    .funner-serv {
-      text-align: center;
-      a {
-        text-decoration: none;
-        font-size: 22px;
-        color: $blue;
-        font-weight: bold;
-      }
-      &_description {
-        color: $red;
-      }
-    }
-    .header-call {
-      text-align: right;
-      &_title {
-        color: $red;
-        font-size: 18px;
-      }
-      a {
-        font-size: 160%;
-        color: $main-txt;
-      }
+      font-size: 160%;
+      color: $main-txt;
     }
   }
 }
