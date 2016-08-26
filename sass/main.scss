@@ -6,10 +6,33 @@
 @import "footer";
 @import "media";
 
+.equal-height {
+  width: 100%;
+  overflow: hidden;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.equal-height_item {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  float: left;
+}
+
 body {
   font-family: "Arial", sans-serif;
   font-size: 14px;
   color: $main-txt;
+}
+
+.container-my {
+  margin: 0 auto;
 }
 
 ul.list-unstyled {
