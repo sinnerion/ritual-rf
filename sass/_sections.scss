@@ -154,7 +154,7 @@ section .container {
 }
 // Московская городская специализированная служба по вопросам похоронного дела
 .special-serv {
-  margin-bottom: 10px;
+  // margin-bottom: 10px;
   &_item {
     padding: 0 0 3rem;
     width: 49.4845%;
@@ -162,6 +162,10 @@ section .container {
     &:nth-child(2n) {
       margin-right: 0;
     }
+  }
+  .item-wrapper {
+    height: 100%;
+    width: 100%;
   }
   .item-title {
     font-size: 22px;
@@ -288,6 +292,9 @@ section .container {
 }
 // Безвозмездные похороны
 .funner-free {
+  &_item {
+    margin-bottom: 1.5rem;
+  }
   h2.bold-heading {
     color: $section-heading;
   }
@@ -332,9 +339,14 @@ section .container {
 // Блоки с синими и красными шапками
 .service-table {
   font-size: 16px;
-  margin-bottom: 20px;
+  width: 49.4845%;
+  margin-right: 1.031%;
+  &:nth-child(2n) {
+    margin-right: 0;
+  }
   .item-wrapper {
     height: 100%;
+    width: 100%;
     border: 2px solid $border;
   }
   .item-heading {
