@@ -54,12 +54,13 @@ and (max-width : 500px) {
 @media only screen
 and (max-width : 992px) {
   nav.main-nav.navbar-default {
-    background: $blue;
     ul.nav.navbar-nav {
+      display: block;
       margin: 0;
     }
     li {
       width: 100%;
+      padding-left: 25%;
     }
     a {
       margin: 0 auto;
