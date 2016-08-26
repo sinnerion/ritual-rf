@@ -53,6 +53,18 @@ and (max-width : 500px) {
 
 @media only screen
 and (max-width : 992px) {
+  nav.main-nav.navbar-default {
+    background: $blue;
+    ul.nav.navbar-nav {
+      margin: 0;
+    }
+    li {
+      width: 100%;
+    }
+    a {
+      margin: 0 auto;
+    }
+  }
   section.privileges {
     margin-bottom: 2.5rem;
   }
@@ -95,6 +107,9 @@ and (max-width : 992px) {
 
 @media only screen
 and (max-width : 767px) {
+  .special-serv .item-description {
+    padding: 0;
+  }
   .funner-cost_item,
   .privileges-item,
   .funner-free_item,
