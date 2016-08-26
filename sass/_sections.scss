@@ -261,7 +261,8 @@ section .container {
     &_cost {
       position: absolute;
       font-size: 35px;
-      left: 25%;
+      left: 0;
+      width: 100%;
       span {
         font-weight: normal;
         font-size: 14px;
@@ -270,7 +271,7 @@ section .container {
   }
   .item-wrapper {
     position: relative;
-    padding: 10px 30px 65%;
+    padding: 10px 30px 14rem;
   }
   .item-blue {
     background: $blue;
