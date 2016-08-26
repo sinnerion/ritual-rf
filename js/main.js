@@ -10,13 +10,15 @@ $(document).ready(function(){
     });*/
 
     // Smooth transition of sections
-    $(document).ready(function() {
-        $("a.scrollto").click(function () {
-            elementClick = $(this).attr("href")
-            destination = $(elementClick).offset().top;
-            $("html:not(:animated),body:not(:animated)").animate({scrollTop: destination}, 1100);
-            return false;
-        });
+    $("a.scrollto").click(function () {
+        elementClick = $(this).attr("href")
+        destination = $(elementClick).offset().top;
+        $("html:not(:animated),body:not(:animated)").animate({scrollTop: destination}, 1100);
+        return false;
+    });
+
+    $('.navbar-nav a').click(function () {
+        $('.collapse').collapse('toggle');
     });
 
     // Column height in
