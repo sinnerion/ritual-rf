@@ -164,7 +164,6 @@ section .container {
     }
   }
   .item-wrapper {
-    height: 100%;
     width: 100%;
   }
   .item-title {
@@ -211,7 +210,6 @@ section .container {
       }
     }
     .item-wrapper {
-      height: 100%;
       width: 100%;
     }
     &-heading {
@@ -272,7 +270,6 @@ section .container {
   }
   .item-wrapper {
     position: relative;
-    height: 100%;
     padding: 10px 30px 65%;
   }
   .item-blue {
@@ -345,7 +342,6 @@ section .container {
     margin-right: 0;
   }
   .item-wrapper {
-    height: 100%;
     width: 100%;
     border: 2px solid $border;
   }
