@@ -8801,7 +8801,7 @@ nav.main-nav.navbar-default ul.nav.navbar-nav {
 /* line 10, ../sass/_header.scss */
 nav.main-nav.navbar-default a {
   color: #fff;
-  padding-right: 22px;
+  padding-right: 2.2rem;
   font-weight: bold;
 }
 /* line 14, ../sass/_header.scss */
@@ -8811,8 +8811,8 @@ nav.main-nav.navbar-default a:hover {
 
 /* line 20, ../sass/_header.scss */
 .header-contact {
-  margin-top: 70px;
-  margin-bottom: 25px;
+  margin-top: 7.0rem;
+  margin-bottom: 2.5rem;
   background: #fff;
 }
 /* line 24, ../sass/_header.scss */
@@ -8822,7 +8822,7 @@ nav.main-nav.navbar-default a:hover {
 /* line 26, ../sass/_header.scss */
 .header-contact .funner-serv a {
   text-decoration: none;
-  font-size: 22px;
+  font-size: 2.2rem;
   color: #293684;
   font-weight: bold;
 }
@@ -8837,70 +8837,70 @@ nav.main-nav.navbar-default a:hover {
 /* line 38, ../sass/_header.scss */
 .header-contact .header-call_title {
   color: #b50000;
-  font-size: 18px;
+  font-size: 1.8rem;
 }
 /* line 42, ../sass/_header.scss */
 .header-contact .header-call a {
-  font-size: 160%;
+  font-size: 1.6rem;
   color: #000;
 }
 
 /* line 3, ../sass/_sections.scss */
-section {
+body > div {
   margin-bottom: 4rem;
 }
 /* line 5, ../sass/_sections.scss */
-section a:hover {
+body > div a:hover {
   text-decoration: none;
   color: #000;
 }
 
 /* line 11, ../sass/_sections.scss */
-section .container h2 {
+div .container h2 {
   text-align: center;
   font-size: 4rem;
-  margin: 0 0 20px;
+  margin: 0 0 2.0rem;
   color: #293684;
 }
 /* line 17, ../sass/_sections.scss */
-section .container .bold-heading {
+div .container .bold-heading {
   font-weight: bold;
   font-size: 3.6rem;
 }
 /* line 21, ../sass/_sections.scss */
-section .container .light-heading {
+div .container .light-heading {
   color: #004a80;
 }
 /* line 24, ../sass/_sections.scss */
-section .container table tbody tr td {
+div .container table tbody tr td {
   padding: 0;
   border: none;
 }
 /* line 28, ../sass/_sections.scss */
-section .container .sub-heading {
+div .container .sub-heading {
   text-align: center;
   color: #b50000;
-  font-size: 28px;
-  margin: 0 0 25px;
+  font-size: 2.8rem;
+  margin: 0 0 2.5rem;
 }
 /* line 33, ../sass/_sections.scss */
-section .container .sub-heading.special-sub-heading {
+div .container .sub-heading.special-sub-heading {
   font-weight: bold;
-  font-size: 20px;
+  font-size: 2.0rem;
 }
 /* line 36, ../sass/_sections.scss */
-section .container .sub-heading.special-sub-heading span {
-  font-size: 32px;
+div .container .sub-heading.special-sub-heading span {
+  font-size: 3.2rem;
 }
 /* line 41, ../sass/_sections.scss */
-section .container .heading-img {
+div .container .heading-img {
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 1.0rem;
 }
 
 /* line 47, ../sass/_sections.scss */
 .help-call {
-  margin-bottom: 30px;
+  margin-bottom: 3rem;
 }
 /* line 49, ../sass/_sections.scss */
 .help-call a {
@@ -8921,9 +8921,9 @@ section .container .heading-img {
 /* line 62, ../sass/_sections.scss */
 .help-call_big {
   width: 76%;
-  padding: 10px 0 10px 88px;
+  padding: 10px 0 10px 8.8rem;
   background: url("../img/icons/banner-phone.png") 40px center no-repeat, #b50000;
-  font-size: 25px;
+  font-size: 2.5rem;
 }
 /* line 68, ../sass/_sections.scss */
 .help-call_small {
@@ -8931,16 +8931,16 @@ section .container .heading-img {
   padding: 10px 10px 6%;
   background: url("../img/icons/banner-phone.png") center 95% no-repeat, #b50000;
   background-size: 5%;
-  font-size: 20px;
+  font-size: 2.0rem;
 }
 
 /* line 76, ../sass/_sections.scss */
 .main-banner {
-  margin-bottom: 30px;
+  margin-bottom: 3.0rem;
 }
 /* line 78, ../sass/_sections.scss */
 .main-banner_link {
-  margin-bottom: 30px;
+  margin-bottom: 3.0rem;
   display: block;
 }
 /* line 81, ../sass/_sections.scss */
@@ -8966,14 +8966,14 @@ section .container .heading-img {
 
 /* line 101, ../sass/_sections.scss */
 .memo-title {
-  margin: 0 0 20px;
+  margin: 0 0 2rem;
   text-align: center;
-  font-size: 24px;
+  font-size: 2.4rem;
 }
 /* line 106, ../sass/_sections.scss */
 .memo-item {
   font-size: 0;
-  margin-bottom: 10px;
+  margin-bottom: 1.0rem;
   border: 2px solid #dedede;
   width: 49.4845%;
   margin-right: 1.031%;
@@ -8984,24 +8984,24 @@ section .container .heading-img {
 }
 /* line 115, ../sass/_sections.scss */
 .memo-item_wrapper {
-  padding: 15px;
-  border-radius: 2px;
+  padding: 1.5rem;
+  border-radius: .2rem;
 }
 /* line 119, ../sass/_sections.scss */
 .memo-item_number {
   float: left;
-  margin-right: 25px;
-  line-height: 70px;
-  padding: 0 40px;
+  margin-right: 2.5rem;
+  line-height: 7.0rem;
+  padding: 0 4.0rem;
   background: #b50000;
   color: #fff;
-  font-size: 32px;
-  border-radius: 5px;
+  font-size: 3.2rem;
+  border-radius: .5rem;
 }
 /* line 129, ../sass/_sections.scss */
 .memo-item_description {
-  font-size: 18px;
-  padding-left: 123px;
+  font-size: 1.8rem;
+  padding-left: 12.3rem;
 }
 /* line 132, ../sass/_sections.scss */
 .memo-item_description a {
@@ -9011,13 +9011,13 @@ section .container .heading-img {
 .memo-attention {
   box-shadow: 0px 3px 4px #b0b0b0;
   text-align: center;
-  padding: 10px;
+  padding: 1.0rem;
   border: 1px solid #dedede;
-  border-radius: 4px;
+  border-radius: .4rem;
 }
 /* line 143, ../sass/_sections.scss */
 .memo-attention_title {
-  font-size: 24px;
+  font-size: 2.4rem;
   color: #b50000;
   margin: 0 0 2.5rem;
   font-weight: bold;
@@ -9025,7 +9025,7 @@ section .container .heading-img {
 /* line 149, ../sass/_sections.scss */
 .memo-attention_description {
   margin: 0;
-  font-size: 18px;
+  font-size: 1.8rem;
 }
 
 /* line 158, ../sass/_sections.scss */
@@ -9044,14 +9044,14 @@ section .container .heading-img {
 }
 /* line 169, ../sass/_sections.scss */
 .special-serv .item-title {
-  font-size: 22px;
-  margin-bottom: 20px;
+  font-size: 2.2rem;
+  margin-bottom: 2.0rem;
   color: #b50000;
   font-weight: bold;
 }
 /* line 175, ../sass/_sections.scss */
 .special-serv .item-description {
-  font-size: 18px;
+  font-size: 1.8rem;
   margin: 0;
   padding: 0 20% 0 0;
 }
@@ -9080,7 +9080,7 @@ section .container .heading-img {
 .funner-cost_item li {
   width: 83.6%;
   margin: 0 auto;
-  padding: 10px 5px;
+  padding: 10px .5rem;
   border-top: 1px solid #dedede;
   border-bottom: 1px solid #dedede;
 }
@@ -9107,31 +9107,31 @@ section .container .heading-img {
   color: #fff;
   background: #293684;
   border: 5px solid #124557;
-  padding: 30px 20px;
-  margin-bottom: 10px;
+  padding: 30px 2.0rem;
+  margin-bottom: 1.0rem;
 }
 /* line 222, ../sass/_sections.scss */
 .funner-cost_item-heading .item-heading_title {
   text-transform: uppercase;
-  margin-bottom: 20px;
+  margin-bottom: 2.0rem;
 }
 /* line 227, ../sass/_sections.scss */
 .funner-cost_item-heading .item-heading_service:not(:last-child) {
-  margin-bottom: 40px;
+  margin-bottom: 4.0rem;
 }
 /* line 231, ../sass/_sections.scss */
 .funner-cost_item-heading .item-heading_single-cost {
-  font-size: 40px;
+  font-size: 4.0rem;
 }
 /* line 234, ../sass/_sections.scss */
 .funner-cost_item-heading span {
   font-weight: normal;
-  font-size: 14px;
+  font-size: 1.4rem;
 }
 /* line 240, ../sass/_sections.scss */
 .funner-cost_footnote {
   text-align: center;
-  line-height: 56px;
+  line-height: 5.6rem;
   font-weight: bold;
   font-style: italic;
 }
@@ -9155,14 +9155,14 @@ section .container .heading-img {
 /* line 261, ../sass/_sections.scss */
 .privileges-item_cost {
   position: absolute;
-  font-size: 35px;
+  font-size: 3.5rem;
   left: 0;
   width: 100%;
 }
 /* line 266, ../sass/_sections.scss */
 .privileges-item_cost span {
   font-weight: normal;
-  font-size: 14px;
+  font-size: 1.4rem;
 }
 /* line 272, ../sass/_sections.scss */
 .privileges .item-wrapper {
@@ -9199,11 +9199,11 @@ section .container .heading-img {
 /* line 299, ../sass/_sections.scss */
 .funner-free_banner {
   display: block;
-  margin-bottom: 25px;
+  margin-bottom: 2.5rem;
   font-weight: bold;
   font-size: 170%;
   border: 1px solid #dedede;
-  border-radius: 5px;
+  border-radius: .5rem;
   background: url(../img/icons/org-icon.png) 1% center no-repeat;
   color: #000;
   background-size: 6%;
@@ -9216,7 +9216,7 @@ section .container .heading-img {
 }
 /* line 314, ../sass/_sections.scss */
 .funner-free_banner img {
-  margin: 0 auto 10px;
+  margin: 0 auto 1.0rem;
 }
 /* line 317, ../sass/_sections.scss */
 .funner-free_banner span {
@@ -9226,12 +9226,12 @@ section .container .heading-img {
 /* line 322, ../sass/_sections.scss */
 .funner-free_memo-title {
   font-weight: bold;
-  margin-bottom: 35px;
+  margin-bottom: 3.5rem;
 }
 /* line 326, ../sass/_sections.scss */
 .funner-free_memo-list {
-  padding: 0 0 0 15px;
-  margin: 0 0 15px;
+  padding: 0 0 0 1.5rem;
+  margin: 0 0 1.5rem;
 }
 /* line 330, ../sass/_sections.scss */
 .funner-free_memo-attention {
@@ -9243,7 +9243,7 @@ section .container .heading-img {
 
 /* line 338, ../sass/_sections.scss */
 .service-table {
-  font-size: 16px;
+  font-size: 1.6rem;
   width: 49.4845%;
   margin-right: 1.031%;
 }
@@ -9260,8 +9260,8 @@ section .container .heading-img {
 .service-table .item-heading {
   text-align: center;
   color: #fff;
-  font-size: 24px;
-  line-height: 60px;
+  font-size: 2.4rem;
+  line-height: 6.0rem;
 }
 /* line 354, ../sass/_sections.scss */
 .service-table .item-heading_blue {
@@ -9275,22 +9275,22 @@ section .container .heading-img {
 }
 /* line 363, ../sass/_sections.scss */
 .service-table .item-description {
-  padding: 20px 20px;
-  font-size: 16px;
+  padding: 20px 2.0rem;
+  font-size: 1.6rem;
 }
 /* line 366, ../sass/_sections.scss */
 .service-table .item-description li {
   display: block;
-  padding-left: 30px;
+  padding-left: 3.0rem;
   position: relative;
-  margin-bottom: 20px;
+  margin-bottom: 2.0rem;
 }
 /* line 371, ../sass/_sections.scss */
 .service-table .item-description li:before {
   content: "";
   display: block;
-  width: 18px;
-  height: 18px;
+  width: 1.8rem;
+  height: 1.8rem;
   position: absolute;
   left: 0;
   top: 0;
@@ -9304,7 +9304,7 @@ section .container .heading-img {
 }
 /* line 390, ../sass/_sections.scss */
 .up-guarantee_item {
-  margin-bottom: 25px;
+  margin-bottom: 2.5rem;
 }
 /* line 392, ../sass/_sections.scss */
 .up-guarantee_item ul {
@@ -9321,8 +9321,8 @@ section .container .heading-img {
 /* line 401, ../sass/_sections.scss */
 .up-guarantee .banner-church_img {
   display: block;
-  margin: 0 auto 40px;
-  max-width: 570px;
+  margin: 0 auto 4.0rem;
+  max-width: 57.0rem;
 }
 /* line 405, ../sass/_sections.scss */
 .up-guarantee .banner-church_img img {
@@ -9331,18 +9331,18 @@ section .container .heading-img {
 /* line 409, ../sass/_sections.scss */
 .up-guarantee .banner-church_call {
   font-weight: bold;
-  font-size: 20px;
+  font-size: 2.0rem;
 }
 /* line 412, ../sass/_sections.scss */
 .up-guarantee .banner-church_call a {
   color: #b50000;
   display: block;
-  font-size: 26px;
+  font-size: 2.6rem;
 }
 
 /* line 420, ../sass/_sections.scss */
 .address-map {
-  margin-bottom: 10px;
+  margin-bottom: 1.0rem;
 }
 /* line 421, ../sass/_sections.scss */
 .address-map h2.bold-heading {
@@ -9350,21 +9350,21 @@ section .container .heading-img {
 }
 /* line 425, ../sass/_sections.scss */
 .address-map .yandex-map {
-  margin-bottom: 20px;
+  margin-bottom: 2.0rem;
 }
 /* line 428, ../sass/_sections.scss */
 .address-map .hot-line {
   text-align: center;
   font-weight: bold;
-  font-size: 28px;
+  font-size: 2.8rem;
 }
 /* line 430, ../sass/_sections.scss */
 .address-map .hot-line p {
-  margin: 0 0 24px;
+  margin: 0 0 2.4rem;
 }
 /* line 435, ../sass/_sections.scss */
 .address-map .hot-line a {
-  font-size: 36px;
+  font-size: 3.6rem;
   color: #b50000;
 }
 
@@ -9421,8 +9421,8 @@ footer .footer-call_number {
 }
 @media only screen and (max-width: 500px) {
   /* line 45, ../sass/_media.scss */
-  section .container h2,
-  section .container h2.bold-heading {
+  div .container h2,
+  div .container h2.bold-heading {
     font-size: 25px;
   }
 
@@ -9448,7 +9448,7 @@ footer .footer-call_number {
   }
 
   /* line 69, ../sass/_media.scss */
-  section.privileges {
+  div.privileges {
     margin-bottom: 2.5rem;
   }
 
@@ -9527,7 +9527,7 @@ footer .footer-call_number {
   /* line 125, ../sass/_media.scss */
   .header-contact .header-contact_link {
     text-align: center !important;
-    margin-bottom: 30px;
+    margin-bottom: 3rem;
   }
 
   /* line 129, ../sass/_media.scss */
@@ -9598,7 +9598,7 @@ footer .footer-call_number {
 /* line 28, ../sass/main.scss */
 body {
   font-family: "Arial", sans-serif;
-  font-size: 14px;
+  font-size: 1.4rem;
   color: #000;
 }
 

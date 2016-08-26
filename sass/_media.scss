@@ -42,8 +42,8 @@ and (orientation : portrait) {
 
 @media only screen
 and (max-width : 500px) {
-  section .container h2,
-  section .container h2.bold-heading {
+  div .container h2,
+  div .container h2.bold-heading {
     font-size: 25px;
   }
   footer .footer-info {
@@ -66,7 +66,7 @@ and (max-width : 992px) {
       margin: 0 auto;
     }
   }
-  section.privileges {
+  div.privileges {
     margin-bottom: 2.5rem;
   }
   .memo-item,
@@ -124,7 +124,7 @@ and (max-width : 767px) {
   }
   .header-contact .header-contact_link {
     text-align: center !important;
-    margin-bottom: 30px;
+    margin-bottom: 3rem;
   }
   .special-serv_item {
      margin-bottom: 30px;
