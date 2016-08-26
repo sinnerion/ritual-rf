@@ -9019,7 +9019,7 @@ section .container .heading-img {
 .memo-attention_title {
   font-size: 24px;
   color: #b50000;
-  margin-bottom: 25px;
+  margin: 0 0 2.5rem;
   font-weight: bold;
 }
 /* line 149, ../sass/_sections.scss */
