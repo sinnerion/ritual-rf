@@ -60,7 +60,7 @@ div .container {
     }
   }
   &_big {
-    width: 76%;
+    max-width: 74rem;
     padding: 10px 0 10px 8.8rem;
     background: url("../img/icons/banner-phone.png") 40px center no-repeat, $red;
     font-size: 2.5rem;
@@ -78,9 +78,6 @@ div .container {
   &_link {
     margin-bottom: 3.0rem;
     display: block;
-    img {
-      width: 100%;
-    }
   }
   .partners ul {
     text-align: center;

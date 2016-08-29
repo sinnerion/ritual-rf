@@ -7,11 +7,13 @@ nav.main-nav.navbar-default {
     display: table;
     margin: 0 auto;
   }
-  a {
+   li a {
     color: $accent-txt;
     padding-right: 2.2rem;
     font-weight: bold;
-    &:hover {
+    &:hover,
+    &:focus,
+    &:active {
       color: $red;
     }
   }
