@@ -108,6 +108,9 @@ and (max-width : 992px) {
 
 @media only screen
 and (max-width : 767px) {
+  .service-table:last-child {
+    margin-bottom: 2rem;
+  }
   .special-serv .item-description {
     padding: 0;
   }

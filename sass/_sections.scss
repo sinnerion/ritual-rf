@@ -78,6 +78,9 @@ div .container {
   &_link {
     margin-bottom: 3.0rem;
     display: block;
+    img {
+      max-width: 100%;
+    }
   }
   .partners ul {
     text-align: center;
@@ -91,9 +94,7 @@ div .container {
     a {
       display: block;
     }
-    img {
-      max-width: 100%;
-    }
+
   }
 }
 // Список первоочередных действий в случае наступлении смерти близкого человека
