@@ -9503,7 +9503,7 @@ footer .footer-call_number {
 }
 @media only screen and (max-width: 767px) {
   /* line 111, ../sass/_media.scss */
-  .service-table:last-child {
+  .equal-height {
     margin-bottom: 2rem;
   }
 
